@@ -1,0 +1,29 @@
+#logo {
+    width: 99%;
+    height: 200px;
+  }
+  .titre {
+    display: flex;
+    justify-content: center;
+    /*margin-top: 5%;*/
+  }
+  .text {
+    margin: 0 5%;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    width: 90%;
+    margin: 5%;
+    border: 3px solid #4ed85c;
+  }
+  .card_picture img {
+    width: 100%;
+  }
+  .line{
+    border-top: 2px solid#4ed85c;
+    border-bottom: 2px solid#4ed85c;
+  }

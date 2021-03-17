@@ -1,33 +1,60 @@
 <?php include 'layout/_header.php';?>
 
-    <img src="assets/" id="logo" alt="logo" width="99%" />
+    <img src="https://picsum.photos/203" id="logo" alt="logo"/>
 
-    <section>
-        <article class="separation">_______________________________________</article>
-        <h1>Accueil</h1>
+    <section class="line">
+        <h1 class="titre">Accueil</h1>
 
     </section>
     <section>
-        <article class="separation">_______________________________________</article>
-        <h2>Qui sommes-nous</h2>
-        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolore odio placeat quidem, veritatis harum reprehenderit, ipsa non delectus quaerat corrupti obcaecati eius quo asperiores at laborum quibusdam cumque esse?</article>
+        <h2 class="titre">Qui sommes-nous</h2>
+        <article class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolore odio placeat quidem, veritatis harum reprehenderit, ipsa non delectus quaerat corrupti obcaecati eius quo asperiores at laborum quibusdam cumque esse?</article>
     </section>
     <section>
-        <article class="separation">_______________________________________</article>
-        <h2>LAST POST</h2>
-        <article>card1</article>
-        <article>card2</article>
-        <article>card3</article>
+        <article class="line">
+        <h2 class="titre">Les pays visités</h2>
+        </article>
+        <div class="cards">
+        <div class="card animate__animated animate__backInLeft">
+            <div class="card_content">
+                <div class="card_picture">
+                    <img src="https://photos.tui.fr/vnf/Produits/JORCT011_mer-morte-circuits-jordanie-tui.jpg" alt="jordanie">
+                </div>
+                <div class="card_title">
+                    <h3>Jordanie</h3>
+                </div>
+                <div class="card_footer">
+                    <a href="jordanie.php" class="btn-like">Découvrir</a>
+                </div>
+            </div>
+        </div>
+        <div class="card animate__animated animate__backInLeft">
+            <div class="card_content">
+                <div class="card_picture">
+                    <img src=" https://www.noble-caledonia.co.uk/thumb.php?source_type=editable_pages&source_info%5Bmedia_gallery_item_id%5D=36717&source_info%5Burl%5D=%2Fab%2Fuploads%2FNCD%2Fshutterstock_110491838.jpg&source_info%5Bsecure_url%5D=%2Fab%2Fuploads%2FNCD%2Fshutterstock_110491838.jpg&source_info%5Brelative_url%5D=%2Fab%2Fuploads%2FNCD%2Fshutterstock_110491838.jpg&source_info%5Balt%5D=Beach+at+Boucan+Canot+on+Reunion&source_info%5Bcaption%5D=Beach+at+Boucan+Canot+on+Reunion&source_info%5Bwidth%5D=800&source_info%5Bheight%5D=533&source_info%5Bfilesystem_path%5D=%2Fhome%2Fdev%2Fpublic%2FCWT%2FMediaGallery%2Fuploads%2FAB%2FNCD%2Fshutterstock_110491838.jpg&source_info%5Btype%5D=JPEG+Image&source_info%5Bmime_type%5D=image%2Fjpeg&action=A.802.400" alt="la reunion">
+                </div>
+                <div class="card_title">
+                    <h3>La Réunion</h3>
+                </div>
+                <div class="card_footer">
+                    <a href="lareunion.php" class="btn-like">Découvrir</a>
+                </div>
+            </div>
+        </div>
+        <div class="card animate__animated animate__backInLeft">
+            <div class="card_content">
+                <div class="card_picture">
+                    <img src=" https://images8.alphacoders.com/887/887586.jpg" alt="japon">
+                </div>
+                <div class="card_title">
+                    <h3>Japon</h3>
+                </div>
+                <div class="card_footer">
+                    <a href="japon.php" class="btn-like">Découvrir</a>
+                </div>
+            </div>
+        </div>
+    </div>
     </section>
-
-    <!--<form>
-        <article class="separation">_______________________________________</article>
-        <h3>Contactez-nous</h3>
-        <input type="name" id="name" placeholder="Name ">
-        <input type="text" id="email" placeholder="@  ">
-        <textarea id="message" placeholder="Your message "></textarea>
-        <br /><br />
-        <input type="submit" value="Envoi" />
-    </form> -->
 
 <?php include 'layout/_footer.php';?>
