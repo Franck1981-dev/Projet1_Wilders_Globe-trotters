@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Wilders Globe-Trotters/title>
-    <link rel="stylesheet" href="style.css">
+    <title>Wilders Globe-Trotters</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
