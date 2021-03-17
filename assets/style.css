@@ -1,0 +1,44 @@
+body {
+    margin:0;
+    font-family: 'Red Rose', cursive;
+}
+
+nav,
+.listNav,
+.btnNav {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+nav {
+  background-color: #494949;
+  padding-top: 1%;
+}
+
+.btnNav {
+  text-decoration: none;
+  padding-left:20px;
+  padding-right:20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnNav:hover {
+    background-color:#494949;
+    border-bottom: 2px solid #4ed85c;
+}
+.titleNav {
+    color:#4ed85c;
+}
+.linkNav {
+  text-decoration: none;
+  color:black;
+}
+.listNav {
+    list-style: none;
+    background-color: #4ed85c;
+    margin-left: 2%;
+    padding-left: 0;
+margin-right: 2%;
+}

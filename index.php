@@ -29,7 +29,4 @@
         <br /><br />
         <input type="submit" value="Envoi" />
     </form>
-</body>
 <?php include 'layout/_footer.php';?>
-
-</html>
