@@ -14,14 +14,52 @@
   .cards {
     display: flex;
     flex-direction: column;
+    margin: 5% 5%;
   }
-  .card {
+  /*.card {
     width: 90%;
     margin: 5%;
     border: 3px solid #4ed85c;
+  }*/
+  .card_content {
+    width: 100%;
+    border: 3px solid #4ed85c;
+    position: relative;
+    margin: 5% 0%;
+    height: 530px;
   }
   .card_picture img {
+    height: 100%;
+    display: block;
     width: 100%;
+  }
+  .card_picture {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  .card_title{
+    position: absolute;
+    font-size: 1em;
+    top: 80%;
+    margin-left: 46%;
+    transform: translate(0, -50%);
+    text-align: center;
+    color: #4ed85c;
+    background-color: black;
+    opacity: 0.4;
+  }
+  .btn {
+    position: absolute;
+    font-size: 1em;
+    top: 90%;
+    padding: 2px;
+    margin-left: 45%;
+    transform: translate(0, -50%);
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 0 15px;
+    background-color: #4ed85c;
   }
   .line{
     border-top: 2px solid#4ed85c;
