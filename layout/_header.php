@@ -13,7 +13,7 @@
         <nav>
             <ul class="listNav">
                 <li class="btnNav"><a href="index.php" class="linkNav">Accueil</a></li>
-                <li class="btnNav"><a href="tokyo.php" class="linkNav">Japon</a></li>
+                <li class="btnNav"><a href="japon.php" class="linkNav">Japon</a></li>
                 <li class="btnNav"><a href="jordanie.php" class="linkNav">Jordanie</a></li>
                 <li class="btnNav"><a href="lareunion.php" class="linkNav">La Réunion</a></li>
             </ul>
