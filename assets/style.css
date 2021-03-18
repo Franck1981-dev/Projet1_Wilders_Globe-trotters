@@ -42,3 +42,109 @@ nav {
     padding-left: 0;
 margin-right: 2%;
 }
+
+#logo {
+    width: 99%;
+    height: 200px;
+  }
+  .titre {
+    display: flex;
+    justify-content: center;
+    /*margin-top: 5%;*/
+  }
+  .text {
+    margin: 0 5%;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 5%;
+  }
+  /*.card {
+    width: 90%;
+    margin: 5%;
+    border: 3px solid #4ed85c;
+  }*/
+  .card_content {
+    width: 100%;
+    border: 3px solid #4ed85c;
+    position: relative;
+    margin: 5% 0%;
+    height: 530px;
+  }
+  .card_picture img {
+    height: 100%;
+    display: block;
+    width: 100%;
+  }
+  .card_picture {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  .card_title{
+    position: absolute;
+    font-size: 1em;
+    top: 80%;
+    margin-left: 46%;
+    transform: translate(0, -50%);
+    text-align: center;
+    color: #4ed85c;
+    background-color: black;
+    opacity: 0.4;
+  }
+  .btn {
+    position: absolute;
+    font-size: 1em;
+    top: 90%;
+    padding: 2px;
+    margin-left: 45%;
+    transform: translate(0, -50%);
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 0 15px;
+    background-color: #4ed85c;
+  }
+  .line{
+    border-top: 2px solid#4ed85c;
+    border-bottom: 2px solid#4ed85c;
+  }
+
+.pays{
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.présentation,
+.plat,
+.activité{
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    border-top: 2px solid#4ed85c;
+    border-bottom: 2px solid#4ed85c;
+    
+}
+.articleprésentation,
+.articleplat,
+.articleactivité{
+    display: inline-block;
+    text-align: center;
+    height: 400%;
+    width: 100%;
+    margin-top: -20px;
+    
+}
+.imageprésentation,
+.imageplat,
+.imageactivité {
+    width: 50%;
+    height: 100%;
+    padding-left: 20%;
+  }
+
+h2{
+    color: blue;
+}
