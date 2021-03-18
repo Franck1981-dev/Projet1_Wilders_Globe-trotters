@@ -4,7 +4,7 @@
 
 <section class="présentation">
     <div class="articleprésentation">
-        <h2> Présentation </h2> 
+        <h2 class="soustitre"> Présentation </h2> 
             <p> Située dans l’océan Indien, à 800 km à l’est de Madagascar, l’île de La Réunion, au climat tropical, constitue, avec les îles Maurice et Rodrigues, l’archipel des Mascareignes. Française depuis 1638, La Réunion devient département français en 1946. 
             D’une superficie totale de 2512 kilomètres carrés, l’île est bordée par 210 kilomètres de côtes. 
             Dans la partie Nord-Ouest, le Piton des Neiges 3 070,50 mètres domine les trois cirques de Cilaos, Salazie et Mafate qui l’enserrent. 
@@ -26,11 +26,11 @@
         <img class="imageplat" src="https://static.thiriet.com/data/common_public/gallery_images/site/18756/18774/108064,rougail_saucisse_et_riz_basmati_a_la_coriandre.jpg" alt=""/>
     </div>
     <div class="articleplat">
-        <h2> Plat traditionnel </h2>
+        <h2 class="soustitre"> Plat traditionnel </h2>
             <p> Le rougail saucisse est un plat traditionnel réunionnais, à base de saucisses de porc ou de poulet  préparées à la créole, souvent fumées, mais parfois fraîches. Celles-ci sont ensuite coupées en morceaux,   auxquels on ajoute des tomates coupées en petits dés, des oignons émincés, et souvent des piments pour les  personnes qui en mangent.
              A la Réunion, le rougail saucisse est traditionnellement accompagné par un zembrocal (mélange de riz avec des haricots rouges ou des pommes de terre selon les recettes), ainsi que du piment (rougail tomate ou autre). Il peut cependant être servi avec du riz et des grains (lentilles de Cilaos, haricots). 
             </p>
-        <h2> Recette </h2>
+        <h2 class="soustitre"> Recette </h2>
             <p> -6 saucisses de Montbéliard ou saucisses à cuire
                 -4 ou 5 tomates
                 -4 gousses d'ail
