@@ -31,18 +31,31 @@
              A la Réunion, le rougail saucisse est traditionnellement accompagné par un zembrocal (mélange de riz avec des haricots rouges ou des pommes de terre selon les recettes), ainsi que du piment (rougail tomate ou autre). Il peut cependant être servi avec du riz et des grains (lentilles de Cilaos, haricots). 
             </p>
         <h2 class="soustitre"> Recette </h2>
-            <p> -6 saucisses de Montbéliard ou saucisses à cuire
-                -4 ou 5 tomates
-                -4 gousses d'ail
-                -3 ou 4 oignons (selon la grosseur)
-                -Thym - laurier
-                -1 cuillère à café de curcuma + 1 de gingembre
-                -1 piment oiseau ou du piment d'Espelette
-                -1 cuillère à café de concentré de tomates
-                -sel, poivre, huile d'olives
 
-            </p>
-
+        <table class="recette">
+            <tr>
+                <td>
+                    <ul>
+                        <li class="ingrédient">-6 saucisses de Montbéliard ou saucisses à cuire</li>
+	                    <li class="ingrédient">-4 ou 5 tomates</li>
+	                    <li class="ingrédient">-4 gousses d'ail</li>
+	                    <li class="ingrédient">-3 ou 4 oignons (selon la grosseur)</li>
+	                    <li class="ingrédient">-Thym - laurier</li>
+                </td>
+                <td>
+                    <ul>
+	                    <li class="ingrédient">-1 cuillère à café de curcuma + 1 de gingembre</li>
+	                    <li class="ingrédient">-1 piment oiseau ou du piment d'Espelette</li>
+	                    <li class="ingrédient">-1 cuillère à café de concentré de tomates</li>
+	                    <li class="ingrédient">-sel, poivre, huile d'olives</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <p class="lienrecette">Pour réaliser la recette, c'est par ici: <br>
+                <a href="https://cuisine.journaldesfemmes.fr/recette/352712-rougail-saucisses">Bonne dégustation!</a>        
+        </p>
+        
     </div>
 </section>
 

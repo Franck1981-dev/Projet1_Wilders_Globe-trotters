@@ -1,28 +1,142 @@
-
-.pays{
-    color: red;
-    display: flex;
-    justify-content: center;
-    border-bottom: 4px solid#4ed85c;
-    padding-bottom: 3%;
+body {
+    margin:0;
+    font-family: 'Red Rose', cursive;
 }
 
+nav,
+.listNav,
+.btnNav {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+nav {
+  background-color: #494949;
+  padding-top: 1%;
+}
+
+.btnNav {
+  text-decoration: none;
+  padding-left:20px;
+  padding-right:20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnNav:hover {
+    background-color:#494949;
+    border-bottom: 2px solid #4ed85c;
+}
+.titleNav {
+    color:#4ed85c;
+}
+.linkNav {
+  text-decoration: none;
+  color:black;
+}
+.listNav {
+    list-style: none;
+    background-color: #4ed85c;
+    margin-left: 2%;
+    padding-left: 0;
+margin-right: 2%;
+}
+
+#logo {
+    width: 99%;
+    height: 200px;
+  }
+  .titre {
+    display: flex;
+    justify-content: center;
+    /*margin-top: 5%;*/
+  }
+  .text {
+    margin: 0 5%;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 5%;
+  }
+  /*.card {
+    width: 90%;
+    margin: 5%;
+    border: 3px solid #4ed85c;
+  }*/
+  .card_content {
+    width: 100%;
+    border: 3px solid #4ed85c;
+    position: relative;
+    margin: 5% 0%;
+    height: 530px;
+  }
+  .card_picture img {
+    height: 100%;
+    display: block;
+    width: 100%;
+  }
+  .card_picture {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  .card_title{
+    position: absolute;
+    font-size: 1em;
+    top: 80%;
+    margin-left: 46%;
+    transform: translate(0, -50%);
+    text-align: center;
+    color: #4ed85c;
+    background-color: black;
+    opacity: 0.4;
+  }
+  .btn {
+    position: absolute;
+    font-size: 1em;
+    top: 90%;
+    padding: 2px;
+    margin-left: 45%;
+    transform: translate(0, -50%);
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 0 15px;
+    background-color: #4ed85c;
+  }
+  .line{
+    border-top: 2px solid#4ed85c;
+    border-bottom: 2px solid#4ed85c;
+  }
+/* page pays */
+
+/*titre h1*/
+.pays{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: sail;
+    border-bottom: 4px solid#4ed85c;
+    padding-bottom: 2%;
+}
+/*titre h2*/
+.soustitre{
+    color: black;
+    font-family: sail;
+}
+/*bloc article/image*/
 .présentation,
 .plat,
 .activité{
-    height: 300px;
+    height: 360px;
     padding: 20px;
     display: flex;
     border-bottom: 4px solid#4ed85c;
     
 }
-
-.présentation{
-    margin-top: -2%;
-}
-
-
-
+/*article*/
 .articleprésentation,
 .articleplat,
 .articleactivité{
@@ -31,16 +145,40 @@
     height: 400%;
     width: 100%;
     margin-top: -20px;
-    
 }
+
+.articleprésentation{
+    margin-top: -4%;
+}
+
+
+
+/*image*/
 .imageprésentation,
 .imageplat,
 .imageactivité {
     width: 70%;
     height: 100%;
-    padding-left: 15%;
+    padding-left: 20%;
   }
 
- .soustitre{
-    color: blue;
+.imageprésentation{
+      margin-top: -2%;
+  }
 
+/*tableaurecette*/
+
+.recette{
+    margin-top: -3%;
+    width: 100%; 
+}
+
+.ingrédient{
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+}
+
+.lienrecette{
+    margin-top: -2%;
+}
