@@ -111,22 +111,34 @@ margin-right: 2%;
     border-bottom: 2px solid#4ed85c;
   }
 
+/* page pays */
+
+
+/*titre h1*/
 .pays{
-    color: red;
+    color: black;
     display: flex;
     justify-content: center;
+    font-family: sail;
+    border-bottom: 4px solid#4ed85c;
+    padding-bottom: 2%;
 }
-
+/*titre h2*/
+.soustitre{
+    color: black;
+    font-family: sail;
+}
+/*bloc article/image*/
 .présentation,
 .plat,
 .activité{
-    height: 300px;
+    height: 360px;
     padding: 20px;
     display: flex;
-    border-top: 2px solid#4ed85c;
-    border-bottom: 2px solid#4ed85c;
+    border-bottom: 4px solid#4ed85c;
     
 }
+/*article*/
 .articleprésentation,
 .articleplat,
 .articleactivité{
@@ -135,16 +147,40 @@ margin-right: 2%;
     height: 400%;
     width: 100%;
     margin-top: -20px;
-    
 }
+
+.articleprésentation{
+    margin-top: -4%;
+}
+
+
+
+/*image*/
 .imageprésentation,
 .imageplat,
 .imageactivité {
-    width: 50%;
+    width: 70%;
     height: 100%;
     padding-left: 20%;
   }
 
-h2{
-    color: blue;
+.imageprésentation{
+      margin-top: -2%;
+  }
+
+/*tableaurecette*/
+
+.recette{
+    margin-top: -3%;
+    width: 100%; 
+}
+
+.ingrédient{
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+}
+
+.lienrecette{
+    margin-top: -2%;
 }
