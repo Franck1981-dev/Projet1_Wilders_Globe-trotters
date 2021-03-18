@@ -132,11 +132,20 @@ margin-right: 2%;
 .présentation,
 .plat,
 .activité{
-    height: 410px;
+    height: 420px;
     padding: 20px;
     display: flex;
     border-bottom: 4px solid#4ed85c;
     
+}
+/*partie japon*/
+.présentation-japon,
+.plat-japon,
+.activité-japon{
+    height: 430px;
+    padding: 20px;
+    display: flex;
+    border-bottom: 4px solid#4ed85c;
 }
 /*article*/
 .articleprésentation,

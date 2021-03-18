@@ -1,7 +1,7 @@
 <?php include 'layout/_header.php';?>
 <h1 class="pays"> Le Japon </h1>
 
-<section class="présentation">
+<section class="présentation-japon">
     <div class="articleprésentation">
         <h2> Présentation </h2> 
             <p> Le Japon, en forme longue l'État du Japon, en japonais Nihon ou Nippon (日本) et Nihon-koku
@@ -22,7 +22,7 @@
     </div>
 </section>
 
-<section class="plat">
+<section class="plat-japon">
     <div> 
         <img class="imageplat" src="https://static.lexpress.fr/medias_12020/w_2048,h_1146,c_crop,x_0,y_154/w_1000,h_563,c_fill,g_north/v1550742170/sushi-saumon-maki-saumon-japonais_6154396.jpg" alt=""/>
     </div>
@@ -63,8 +63,9 @@
     </div>
 </section>
 
-<section class="activité">
+<section class="activité-japon">
     <div class="articleactivité"> 
+        <h2>Activités</h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam impedit iste, suscipit debitis quia porro officiis rerum pariatur omnis odit non optio quasi distinctio expedita est, nulla repellendus nihil quos! </p>
     </div>
     <div> 
