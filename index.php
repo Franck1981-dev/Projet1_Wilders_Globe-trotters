@@ -1,8 +1,10 @@
 <?php include 'layout/_header.php';?>
-    <div>
+    <div class="banner">
         <img src="https://picsum.photos/203" id="logo" alt="logo"/>
-        <p>[Les voyages des wilders Globe-trotters]</p>
-        <p>Les pays que l'on veut partager !</p>
+        <div class="banner_background">
+        <p class="banner_title">[Les voyages des wilders Globe-trotters]</p>
+        <p class="banner_text">Les pays que l'on veut partager !</p>
+        </div>
     </div>
     <section class="line">
         <h1 class="titre">Accueil</h1>
@@ -16,11 +18,12 @@
         <article class="line">
         <h2 class="titre">Les pays visités</h2>
         </article>
+        <article class="articles">
         <div class="cards">
             <div class="card_content">
             <div class="card_picture">
                 <img
-                src="https://photos.tui.fr/vnf/Produits/JORCT011_mer-morte-circuits-jordanie-tui.jpg"
+                src="https://zupimages.net/up/21/11/yhfq.jpg"
                 alt="jordanie"
                 />
                 <h3 class="card_title">Jordanie</h3>
@@ -49,6 +52,7 @@
                 <a href="japon.php" class="btn">Découvrir</a>
             </div>
             </div>
-    </div>
+        </div>
+        </article>
     </section>
 <?php include 'layout/_footer.php';?>

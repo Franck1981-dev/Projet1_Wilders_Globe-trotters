@@ -43,6 +43,9 @@ nav {
 margin-right: 2%;
 }
 
+
+/*Debut homepage*/
+/*Debut mobile*/
 #logo {
     width: 99%;
     height: 200px;
@@ -53,19 +56,16 @@ margin-right: 2%;
     /*margin-top: 5%;*/
   }
   .text {
-    margin: 0 5%;
+    margin: 1% 5%;
   }
-  
+  .articles{
+    background-color: #525252;
+  }
   .cards {
     display: flex;
     flex-direction: column;
     margin: 5% 5%;
   }
-  /*.card {
-    width: 90%;
-    margin: 5%;
-    border: 3px solid #4ed85c;
-  }*/
   .card_content {
     width: 100%;
     border: 3px solid #4ed85c;
@@ -82,17 +82,18 @@ margin-right: 2%;
     position: relative;
     display: inline-block;
     width: 100%;
+    height: 100%;
   }
   .card_title{
     position: absolute;
     font-size: 1em;
     top: 80%;
-    margin-left: 46%;
+    margin-left: 45%;
+    padding:0 10px;
     transform: translate(0, -50%);
     text-align: center;
     color: #4ed85c;
-    background-color: black;
-    opacity: 0.4;
+    background-color:rgba(0, 0, 0, 0.4);
   }
   .btn {
     position: absolute;
@@ -110,6 +111,45 @@ margin-right: 2%;
     border-top: 2px solid#4ed85c;
     border-bottom: 2px solid#4ed85c;
   }
+  .banner{
+    width: 100%;
+    position: relative;
+    margin: 5% 0%;
+  }
+  .banner_title{
+    position: absolute;
+    font-size: 1.5em;
+    top: 30%;
+    margin-left: 5%;
+    padding: 0 10px;
+    transform: translate(0, -50%);
+    text-align: center;
+    color: #4ed85c;
+    background-color:rgba(0, 0, 0, 0.4);
+  }
+  .banner_text{
+  position: absolute;
+  font-size: 1.2em;
+  top: 45%;
+  margin-left: 5%;
+  padding: 0 10px;
+  transform: translate(0, -50%);
+  text-align: center;
+  color: white;
+  background-color:rgba(0, 0, 0, 0.4);
+  }
+  /*debut desktop*/
+  @media (min-width: 1024px) {
+    .cards {
+      flex-direction: row;
+      justify-content: center;
+      margin: 5% 5%;
+    }
+    .card_content{
+      margin: 2% 4%;
+    }
+    }
+/*Fin homepage*/
 
 .pays{
     color: red;
@@ -144,7 +184,3 @@ margin-right: 2%;
     height: 100%;
     padding-left: 20%;
   }
-
-h2{
-    color: blue;
-}
