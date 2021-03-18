@@ -66,10 +66,16 @@
 <section class="activité-japon">
     <div class="articleactivité"> 
         <h2>Activités</h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam impedit iste, suscipit debitis quia porro officiis rerum pariatur omnis odit non optio quasi distinctio expedita est, nulla repellendus nihil quos! </p>
+        <p> Vous pouvez faire une multitudes de choses au Japon !! Que se soit culturel, 
+            comme visiter des temples anciens, assiter à un tournois de sumo, porter un kimono traditionnel, 
+            ou aller geeké dans un game center, goûter la gastronomie local, comme les fameux sushi, 
+            le ramen, les okonamiyaki, ou la fameuse fondu japonaise shabushabu, 
+            mais vous pourriez aussi penser à vous détendre dans les onsens les fameuses sources d'eau chaude naturels, 
+            pique-niquer sous les cerisiers en fleurs dans des gyoen (parc), ou si vous l'osez, 
+            se balader dans la rue en cosplay.</p>
     </div>
     <div> 
-        <img class="imageactivité" src="https://zupimages.net/up/21/11/jqob.jpg" alt=""/>
+        <img class="imageactivité" src="https://zupimages.net/up/21/11/7zxj.jpg" alt=""/>
     </div>
 </section>
 
