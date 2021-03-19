@@ -96,7 +96,7 @@ nav {
   grid-row: 2;
 }
 /* Taille des icones */
-img {
+.img {
   width: 30px;
   margin-right: 10px;
   height: auto;
@@ -104,8 +104,73 @@ img {
 /*-----------------------------------------------------------*/
 /*Debut homepage*/
 /*Debut Desktop*/
+/*Slider*/
+div#slider {
+    width: 100%;
+    height: 100%;
+    /*max-width: 1000px;*/
+  }
+  div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+  }
+  div#slider figure img {
+    width: 20%;
+    height: 100%;
+    float: left;
+  }
+  div#slider {
+    width: 100%;
+    /*max-width: 1000px;*/
+    overflow: hidden;
+  }
+  @keyframes slidy {
+    0% {
+      left: 0%;
+    }
+    20% {
+      left: 0%;
+    }
+    25% {
+      left: -100%;
+    }
+    45% {
+      left: -100%;
+    }
+    50% {
+      left: -200%;
+    }
+    70% {
+      left: -200%;
+    }
+    75% {
+      left: -300%;
+    }
+    95% {
+      left: -300%;
+    }
+    100% {
+      left: -400%;
+    }
+  }
+  div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    left: 0;
+    text-align: left;
+    animation: 30s slidy infinite;
+  }
+  
+
 /*Banner*/
-.banner{
+/*.banner{
   width: 100%;
   position: relative;
 }
@@ -123,7 +188,7 @@ img {
 #logo {
     width: 100%;
     height: 500px;
-  }
+  }*/
 /*Body*/
   .titre {
     display: flex;
