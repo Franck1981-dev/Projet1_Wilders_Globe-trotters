@@ -1,6 +1,6 @@
 <?php include 'layout/_header.php';?>
     <div class="banner">
-        <img src="https://picsum.photos/203" id="logo" alt="logo"/>
+        <img src="https://zupimages.net/up/21/11/g607.jpg" id="logo" alt="logo"/>
         <div class="banner_background">
         <p class="banner_title">[Les voyages des wilders Globe-trotters]</p>
         <p class="banner_text">Les pays que l'on veut partager !</p>

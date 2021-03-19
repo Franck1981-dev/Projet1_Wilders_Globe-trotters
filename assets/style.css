@@ -133,7 +133,7 @@ background-color:rgba(0, 0, 0, 0.4);
 }
 #logo {
     width: 100%;
-    height: 200px;
+    height: 500px;
   }
 /*Body*/
   .titre {
@@ -191,13 +191,14 @@ background-color:rgba(0, 0, 0, 0.4);
     position: absolute;
     font-size: 1em;
     top: 90%;
-    padding: 2px;
+    padding: 5px;
     margin-left: 45%;
     transform: translate(0, -50%);
     text-align: center;
     color: #ffffff;
     text-shadow: 0 0 15px;
     background-color: #4ed85c;
+    border-radius: 30%;
   }
 
 /*Fin homepage*/
