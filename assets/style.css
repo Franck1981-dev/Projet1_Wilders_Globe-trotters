@@ -1,190 +1,234 @@
 body {
-  font-family: "Red Rose", cursive;
-  margin: 0;
-  padding: 0;
+    font-family: "Red Rose", cursive;
+    margin: 0;
+    padding: 0;
 }
+
 
 /*--------------------------Header-------------------------------*/
 
+
 /*Gestion de la barre de navigation globale, positionnement des éléments */
+
 nav,
 .listNav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav {
-  background-color: #494949;
-  border-bottom: 4px solid#4ed85c;
+    background-color: #494949;
+    border-bottom: 4px solid#4ed85c;
 }
 
+
 /* Balise ul, boutons de navigation (li), boutons au passage de la souris, textes des boutons */
+
 .listNav {
-  list-style: none;
-  background-color: #4ed85c;
-  margin-left: 2%;
-  padding-left: 0;
-  margin-right: 2%;
+    list-style: none;
+    background-color: #4ed85c;
+    margin-left: 2%;
+    padding-left: 0;
+    margin-right: 2%;
 }
 
 .btnNav {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  justify-content: center;
-  align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .linkNav:hover {
-  background-color: #494949;
-  color: white;
-  border-bottom: 2px solid #4ed85c;
+    background-color: #494949;
+    color: white;
+    border-bottom: 2px solid #4ed85c;
 }
 
 .linkNav {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 
+
 /* Titre du header */
+
 .titleNav {
-  font-family: "Sail", cursive;
-  font-size: 40px;
+    font-family: "Sail", cursive;
+    font-size: 40px;
 }
+
 .linkTitle {
-  color: #4ed85c;
-  text-decoration: none;
+    color: #4ed85c;
+    text-decoration: none;
 }
+
 
 /*--------------------------Footer-------------------------------*/
 
+
 /* Classe principale du footer */
+
 .socialMedia {
-  display: grid;
-  grid-template-columns: repeat(3, 34%);
-  background-color: #494949;
-  border-top: 4px solid #4ed85c;
+    display: grid;
+    grid-template-columns: repeat(3, 34%);
+    background-color: #494949;
+    border-top: 4px solid #4ed85c;
 }
 
+
 /* Classes du texte "rejoignez-nous","@Wilders" et des icones */
+
 .textMediaFooter,
 .mentions,
 .icones {
-  display: flex;
-  color: #4ed85c;
+    display: flex;
+    color: #4ed85c;
 }
+
 .textMediaFooter {
-  justify-content: center;
-  align-items: center;
-  grid-column: 2;
-  grid-row: 1;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 1;
 }
 
 .icones {
-  grid-column: 2;
-  grid-row: 2;
-  justify-content: center;
-  align-items: center;
+    grid-column: 2;
+    grid-row: 2;
+    justify-content: center;
+    align-items: center;
 }
 
 .mentions {
-  justify-content: flex-end;
-  padding-right: 3em;
-  grid-column: 3;
-  grid-row: 2;
+    justify-content: flex-end;
+    padding-right: 3em;
+    grid-column: 3;
+    grid-row: 2;
 }
+
+
 /* Taille des icones */
+
 img {
-  width: 30px;
-  margin-right: 10px;
-  height: auto;
+    width: 30px;
+    margin-right: 10px;
+    height: auto;
 }
+
+
 /*-----------------------------------------------------------*/
+
+
 /*Debut homepage*/
+
+
 /*Debut Desktop*/
+
+
 /*Banner*/
-.banner{
-  width: 100%;
-  position: relative;
+
+.banner {
+    width: 100%;
+    position: relative;
 }
-.banner_title{
-  position: absolute;
-  font-size: 1.5em;
-  top: 30%;
-  margin-left: 5%;
-  padding: 0 10px;
-  transform: translate(0, -50%);
-  text-align: center;
-  color: #4ed85c;
-  background-color:rgba(0, 0, 0, 0.4);
+
+.banner_title {
+    position: absolute;
+    font-size: 1.5em;
+    top: 30%;
+    margin-left: 5%;
+    padding: 0 10px;
+    transform: translate(0, -50%);
+    text-align: center;
+    color: #4ed85c;
+    background-color: rgba(0, 0, 0, 0.4);
 }
+
 #logo {
     width: 100%;
     height: 500px;
-  }
+}
+
+
 /*Body*/
-  .titre {
+
+.titre {
     display: flex;
     justify-content: center;
     font-family: "Sail", cursive;
     font-size: 2em;
-  }
-  .text {
+}
+
+.text {
     margin: 1% 5%;
-  }
-  .line{
+}
+
+.line {
     border-top: 4px solid#4ed85c;
     border-bottom: 4px solid#4ed85c;
-  }
+}
+
+
 /*Articles*/
-  .articles{
+
+.articles {
     background-color: #494949;
     margin-top: -15%;
     margin-bottom: -15%;
-  }
-  .cards {
+}
+
+.cards {
     display: flex;
     flex-direction: row;
     margin: 15% 3%;
-  }
-  .card_content {
+}
+
+.card_content {
     width: 100%;
     border: 3px solid #4ed85c;
     position: relative;
     margin: 2% 4%;
     height: 400px;
-  }
-  .card_picture img {
+}
+
+.card_picture img {
     height: 100%;
     display: block;
     width: 100%;
-  }
-  .card_picture {
+}
+
+.card_picture {
     position: relative;
     display: inline-block;
     width: 100%;
     height: 100%;
-  }
-  .card_title{
+}
+
+.card_title {
     position: absolute;
     font-size: 1em;
     top: 80%;
     margin-left: 43%;
-    padding:0 20px;
+    padding: 0 20px;
     transform: translate(0, -50%);
     text-align: center;
     color: #4ed85c;
-    background-color:rgba(0, 0, 0, 0.4);
-  }
-  #reunion{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#reunion {
     margin-left: 40%;
-  }
-  #japon{
+}
+
+#japon {
     margin-left: 45%;
-  }
-  .btn {
+}
+
+.btn {
     position: absolute;
     font-size: 1em;
     top: 93%;
@@ -200,11 +244,13 @@ img {
 
 /*Fin homepage*/
 
+
 /* page pays */
 
 
 /*titre h1*/
-.pays{
+
+.pays {
     color: black;
     display: flex;
     justify-content: center;
@@ -212,34 +258,45 @@ img {
     border-bottom: 4px solid#4ed85c;
     padding-bottom: 2%;
 }
+
+
 /*titre h2*/
-.soustitre{
+
+.soustitre {
     color: black;
     font-family: sail;
 }
+
+
 /*bloc article/image*/
+
 .présentation,
 .plat,
-.activité{
+.activité {
     height: 420px;
     padding: 20px;
     display: flex;
     border-bottom: 4px solid#4ed85c;
-    
 }
+
+
 /*partie japon*/
+
 .présentation-japon,
 .plat-japon,
-.activité-japon{
+.activité-japon {
     height: 430px;
     padding: 20px;
     display: flex;
     border-bottom: 4px solid#4ed85c;
 }
+
+
 /*article*/
+
 .articleprésentation,
 .articleplat,
-.articleactivité{
+.articleactivité {
     display: inline-block;
     text-align: center;
     height: 400%;
@@ -247,63 +304,119 @@ img {
     margin-top: -20px;
 }
 
-.articleprésentation{
+.articleprésentation {
     margin-top: -4%;
 }
 
 
-
 /*image*/
+
 .imageprésentation,
 .imageplat,
 .imageactivité {
     width: 70%;
     height: 100%;
     padding-left: 15%;
-  }
+}
 
-.imageprésentation{
-      margin-top: -2%;
-  }
+.imageprésentation {
+    margin-top: -2%;
+}
+
 
 /*tableaurecette*/
 
-.recette{
+.recette {
     margin-top: -3%;
-    width: 100%; 
+    width: 100%;
 }
 
-.ingrédient{
+.ingrédient {
     display: flex;
     justify-content: left;
     list-style-type: none;
 }
 
-.lienrecette{
+.lienrecette {
     margin-top: -2%;
 }
+
+
+/*formulaire*/
+
 #formulaire {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     width: 450px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
-                            
+
+#name {
+    width: 800px;
+    height: 20px;
+    text-align: center;
+}
+
+#firstname {
+    width: 800px;
+    height: 20px;
+    text-align: center;
+}
+
+#email {
+    width: 800px;
+    height: 20px;
+    text-align: center;
+}
+
+#message {
+    width: 800px;
+    height: 200px;
+}
+
 #imgContact {
-     width: 80%;
-     height: auto;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
- /*debut Mobile*/
-  @media (max-width: 992px){
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 45px;
+    width: 100px;
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 0 0 15px;
+    background-color: #4ed85c;
+    border-radius: 30%;
+}
+
+
+/*debut Mobile*/
+
+@media (max-width: 992px) {
     .cards {
-      flex-direction: column;
-      justify-content: center;
-      margin: 15% 15%;
+        flex-direction: column;
+        justify-content: center;
+        margin: 15% 15%;
     }
-    .card_content{
-      width: 100%;
-      border: 3px solid #4ed85c;
-      position: relative;
-      margin-top: 15%;
-      height: 530px;
+    .card_content {
+        width: 100%;
+        border: 3px solid #4ed85c;
+        position: relative;
+        margin-top: 15%;
+        height: 530px;
     }
-    }
+}
