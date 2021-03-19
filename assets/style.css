@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 /*--------------------------Header-------------------------------*/
 
 /*Gestion de la barre de navigation globale, positionnement des éléments */
@@ -37,13 +36,13 @@ nav {
   align-items: center;
 }
 
-.linkNav:hover {
+.linkNav:hover,.linkNavContact:hover {
   background-color: #494949;
   color: white;
   border-bottom: 2px solid #4ed85c;
 }
 
-.linkNav {
+.linkNav,.linkNavContact {
   text-decoration: none;
   color: black;
 }
@@ -285,6 +284,18 @@ background-color:rgba(0, 0, 0, 0.4);
 .lienrecette{
     margin-top: -2%;
 }
+
+#email {
+  width: 80%;
+  margin-left: 10px;
+}
+
+#message {
+  width: 80%;
+  height: 150px;
+  margin-left: 10px;
+}
+
  /*debut Mobile*/
   @media (max-width: 992px){
     .cards {
@@ -298,5 +309,9 @@ background-color:rgba(0, 0, 0, 0.4);
       position: relative;
       margin-top: 15%;
       height: 530px;
+    }
+    .listNav {
+      display: flex;
+      flex-direction: column;
     }
     }
