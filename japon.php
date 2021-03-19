@@ -3,7 +3,7 @@
 
 <section class="présentation-japon">
     <div class="articleprésentation">
-        <h2> Présentation </h2> 
+        <h2 class="soustitre"> Présentation </h2> 
             <p> Le Japon, en forme longue l'État du Japon, en japonais Nihon ou Nippon (日本) et Nihon-koku
             ou Nippon-koku (日本国) respectivement, est un pays insulaire de l'Asie de l'Est, situé entre l'océan
             Pacifique et la mer du Japon, à l'est de la Chine, de la Corée du Sud et de la Russie, et au nord de
@@ -27,7 +27,7 @@
         <img class="imageplat" src="https://static.lexpress.fr/medias_12020/w_2048,h_1146,c_crop,x_0,y_154/w_1000,h_563,c_fill,g_north/v1550742170/sushi-saumon-maki-saumon-japonais_6154396.jpg" alt=""/>
     </div>
     <div class="articleplat">
-        <h2> Plat traditionnel </h2>
+        <h2 class="soustitre"> Plat traditionnel </h2>
             <p> Le sushi (寿司, 鮨, 鮓) est un plat traditionnel japonais, composé d'un riz vinaigré appelé
             shari (舎利) combiné avec un autre ingrédient appelé neta (寿司ネタ) qui est habituellement
             du poisson cru ou des fruits de mer. Cette forme d'art culinaire est un des emblèmes de la
@@ -35,7 +35,7 @@
             Les types de sushis les plus répandus sont les nigirizushi, constitués d'une boule de shari
              formée à la main recouverte d'une tranche de neta, les makizushi qui sont des rouleaux de nori renfermant du shari et d'autres ingrédients ou le chirashizushi composé de shari recouvert de divers accompagnements. Il ne faut pas confondre les sushis avec les sashimis, un plat japonais constitué de tranches de poisson cru. 
             </p>
-        <h2> Recette </h2>
+        <h2 class="soustitre"> Recette </h2>
             <table class="recette">
             <tr>
                 <td>
@@ -65,7 +65,7 @@
 
 <section class="activité-japon">
     <div class="articleactivité"> 
-        <h2>Activités</h2>
+        <h2 class="soustitre">Activités</h2>
         <p> Vous pouvez faire une multitudes de choses au Japon !! Que se soit culturel, 
             comme visiter des temples anciens, assiter à un tournois de sumo, porter un kimono traditionnel, 
             ou aller geeké dans un game center, goûter la gastronomie local, comme les fameux sushi, 
