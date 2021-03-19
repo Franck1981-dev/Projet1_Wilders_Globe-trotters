@@ -18,7 +18,7 @@
                 <a href="index.php" class="linkNav">
                     <li class="btnNav">Accueil</li>
                 </a>
-                <a href="tokyo.php" class="linkNav">
+                <a href="japon.php" class="linkNav">
                     <li class="btnNav">Japon</li>
                 </a>
                 <a href="jordanie.php" class="linkNav">
