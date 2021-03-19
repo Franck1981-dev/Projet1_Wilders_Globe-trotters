@@ -4,7 +4,7 @@
 
 <section class="présentation">
     <div class="articleprésentation">
-        <h2> Présentation </h2> 
+        <h2 class="soustitre"> Présentation </h2> 
             <p> Située dans l’océan Indien, à 800 km à l’est de Madagascar, l’île de La Réunion, au climat tropical, constitue, avec les îles Maurice et Rodrigues, l’archipel des Mascareignes. Française depuis 1638, La Réunion devient département français en 1946. 
             D’une superficie totale de 2512 kilomètres carrés, l’île est bordée par 210 kilomètres de côtes. 
             Dans la partie Nord-Ouest, le Piton des Neiges 3 070,50 mètres domine les trois cirques de Cilaos, Salazie et Mafate qui l’enserrent. 
@@ -26,29 +26,42 @@
         <img class="imageplat" src="https://static.thiriet.com/data/common_public/gallery_images/site/18756/18774/108064,rougail_saucisse_et_riz_basmati_a_la_coriandre.jpg" alt=""/>
     </div>
     <div class="articleplat">
-        <h2> Plat traditionnel </h2>
+        <h2 class="soustitre"> Plat traditionnel </h2>
             <p> Le rougail saucisse est un plat traditionnel réunionnais, à base de saucisses de porc ou de poulet  préparées à la créole, souvent fumées, mais parfois fraîches. Celles-ci sont ensuite coupées en morceaux,   auxquels on ajoute des tomates coupées en petits dés, des oignons émincés, et souvent des piments pour les  personnes qui en mangent.
              A la Réunion, le rougail saucisse est traditionnellement accompagné par un zembrocal (mélange de riz avec des haricots rouges ou des pommes de terre selon les recettes), ainsi que du piment (rougail tomate ou autre). Il peut cependant être servi avec du riz et des grains (lentilles de Cilaos, haricots). 
             </p>
-        <h2> Recette </h2>
-            <p> -6 saucisses de Montbéliard ou saucisses à cuire
-                -4 ou 5 tomates
-                -4 gousses d'ail
-                -3 ou 4 oignons (selon la grosseur)
-                -Thym - laurier
-                -1 cuillère à café de curcuma + 1 de gingembre
-                -1 piment oiseau ou du piment d'Espelette
-                -1 cuillère à café de concentré de tomates
-                -sel, poivre, huile d'olives
+        <h2 class="soustitre"> Recette </h2>
 
-            </p>
-
+        <table class="recette">
+            <tr>
+                <td>
+                    <ul>
+                        <li class="ingrédient">-6 saucisses de Montbéliard ou saucisses à cuire</li>
+	                    <li class="ingrédient">-4 ou 5 tomates</li>
+	                    <li class="ingrédient">-4 gousses d'ail</li>
+	                    <li class="ingrédient">-3 ou 4 oignons (selon la grosseur)</li>
+	                    <li class="ingrédient">-Thym - laurier</li>
+                </td>
+                <td>
+                    <ul>
+	                    <li class="ingrédient">-1 cuillère à café de curcuma + 1 de gingembre</li>
+	                    <li class="ingrédient">-1 piment oiseau ou du piment d'Espelette</li>
+	                    <li class="ingrédient">-1 cuillère à café de concentré de tomates</li>
+	                    <li class="ingrédient">-sel, poivre, huile d'olives</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <p class="lienrecette">Pour réaliser la recette, c'est par ici: <br>
+                <a href="https://cuisine.journaldesfemmes.fr/recette/352712-rougail-saucisses">Bonne dégustation!</a>        
+        </p>
+        
     </div>
 </section>
 
 <section class="activité">
     <div class="articleactivité"> 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam impedit iste, suscipit debitis quia porro officiis rerum pariatur omnis odit non optio quasi distinctio expedita est, nulla repellendus nihil quos! </p>
+        <p> A la réunion, une bande récifale de 25 km de long borde de façon discontinue la cote ouest et sud de l'île. Ce récif corallien formé au fil du temps abrite aujourd'hui près de 150 espèces de coraux, 2000 espèces de mollusques et 900 espèces de poissons. Il constitue un véritable paradis pour les plongeurs. Quelques espèces communes : Chirurgien bagnard, poisson Demoiselle, poisson Perroquet, Idole des Maures, poisson cocher commun, Ange empereur, poisson Soldat, Papillon Raton Laveur, poisson coffre, Baliste Picasso, Murène, poisson Labre, Rascasse volante, poisson Pierre. Il vous suffit simplement d'un masque et d'une paire </p>
     </div>
     <div> 
         <img class="imageactivité" src="https://204248.smushcdn.com/2066002/wp-content/uploads/2015/11/Corail-ile-de-la-reunion.jpg?lossy=0&strip=1&webp=1" alt=""/>

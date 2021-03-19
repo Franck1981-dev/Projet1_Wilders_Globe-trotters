@@ -1,51 +1,109 @@
 body {
-    margin:0;
-    font-family: 'Red Rose', cursive;
+  font-family: "Red Rose", cursive;
+  margin: 0;
+  padding: 0;
 }
 
+/*--------------------------Header-------------------------------*/
+
+/*Gestion de la barre de navigation globale, positionnement des éléments */
 nav,
-.listNav,
-.btnNav {
+.listNav {
   display: flex;
-  text-decoration: none;
   justify-content: space-between;
+  align-items: center;
 }
 
 nav {
   background-color: #494949;
-  padding-top: 1%;
+  border-bottom: 4px solid#4ed85c;
+}
+
+/* Balise ul, boutons de navigation (li), boutons au passage de la souris, textes des boutons */
+.listNav {
+  list-style: none;
+  background-color: #4ed85c;
+  margin-left: 2%;
+  padding-left: 0;
+  margin-right: 2%;
 }
 
 .btnNav {
-  text-decoration: none;
-  padding-left:20px;
-  padding-right:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   justify-content: center;
   align-items: center;
 }
 
-.btnNav:hover {
-    background-color:#494949;
-    border-bottom: 2px solid #4ed85c;
+.linkNav:hover {
+  background-color: #494949;
+  color: white;
+  border-bottom: 2px solid #4ed85c;
 }
-.titleNav {
-    color:#4ed85c;
-}
+
 .linkNav {
   text-decoration: none;
-  color:black;
-}
-.listNav {
-    list-style: none;
-    background-color: #4ed85c;
-    margin-left: 2%;
-    padding-left: 0;
-margin-right: 2%;
+  color: black;
 }
 
+/* Titre du header */
+.titleNav {
+  font-family: "Sail", cursive;
+  font-size: 40px;
+}
+.linkTitle {
+  color: #4ed85c;
+  text-decoration: none;
+}
 
+/*--------------------------Footer-------------------------------*/
+
+/* Classe principale du footer */
+.socialMedia {
+  display: grid;
+  grid-template-columns: repeat(3, 34%);
+  background-color: #494949;
+  border-top: 4px solid #4ed85c;
+}
+
+/* Classes du texte "rejoignez-nous","@Wilders" et des icones */
+.textMediaFooter,
+.mentions,
+.icones {
+  display: flex;
+  color: #4ed85c;
+}
+.textMediaFooter {
+  justify-content: center;
+  align-items: center;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.icones {
+  grid-column: 2;
+  grid-row: 2;
+  justify-content: center;
+  align-items: center;
+}
+
+.mentions {
+  justify-content: flex-end;
+  padding-right: 3em;
+  grid-column: 3;
+  grid-row: 2;
+}
+/* Taille des icones */
+img {
+  width: 30px;
+  margin-right: 10px;
+  height: auto;
+}
+/*-----------------------------------------------------------*/
 /*Debut homepage*/
-/*Debut mobile*/
+/*Debut Desktop*/
 /*Banner*/
 .banner{
   width: 100%;
@@ -96,7 +154,7 @@ background-color:rgba(0, 0, 0, 0.4);
   }
   .cards {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 15% 15%;
   }
   .card_content {
@@ -105,6 +163,7 @@ background-color:rgba(0, 0, 0, 0.4);
     position: relative;
     margin-top: 15%;
     height: 530px;
+    margin: 2% 4%;
   }
   .card_picture img {
     height: 100%;
@@ -140,35 +199,46 @@ background-color:rgba(0, 0, 0, 0.4);
     text-shadow: 0 0 15px;
     background-color: #4ed85c;
   }
-  /*debut desktop*/
-  @media (min-width: 1024px) {
-    .cards {
-      flex-direction: row;
-      justify-content: center;
-      margin: 15% 15%;
-    }
-    .card_content{
-      margin: 2% 4%;
-    }
-    }
+
 /*Fin homepage*/
 
+/* page pays */
+
+
+/*titre h1*/
 .pays{
-    color: red;
+    color: black;
     display: flex;
     justify-content: center;
+    font-family: sail;
+    border-bottom: 4px solid#4ed85c;
+    padding-bottom: 2%;
 }
-
+/*titre h2*/
+.soustitre{
+    color: black;
+    font-family: sail;
+}
+/*bloc article/image*/
 .présentation,
 .plat,
 .activité{
-    height: 300px;
+    height: 420px;
     padding: 20px;
     display: flex;
-    border-top: 2px solid#4ed85c;
-    border-bottom: 2px solid#4ed85c;
+    border-bottom: 4px solid#4ed85c;
     
 }
+/*partie japon*/
+.présentation-japon,
+.plat-japon,
+.activité-japon{
+    height: 430px;
+    padding: 20px;
+    display: flex;
+    border-bottom: 4px solid#4ed85c;
+}
+/*article*/
 .articleprésentation,
 .articleplat,
 .articleactivité{
@@ -177,12 +247,55 @@ background-color:rgba(0, 0, 0, 0.4);
     height: 400%;
     width: 100%;
     margin-top: -20px;
-    
 }
+
+.articleprésentation{
+    margin-top: -4%;
+}
+
+
+
+/*image*/
 .imageprésentation,
 .imageplat,
 .imageactivité {
-    width: 50%;
+    width: 70%;
     height: 100%;
-    padding-left: 20%;
+    padding-left: 15%;
   }
+
+.imageprésentation{
+      margin-top: -2%;
+  }
+
+/*tableaurecette*/
+
+.recette{
+    margin-top: -3%;
+    width: 100%; 
+}
+
+.ingrédient{
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+}
+
+.lienrecette{
+    margin-top: -2%;
+}
+ /*debut Mobile*/
+  @media (max-width: 992px){
+    .cards {
+      flex-direction: column;
+      justify-content: center;
+      margin: 15% 15%;
+    }
+    .card_content{
+      width: 100%;
+      border: 3px solid #4ed85c;
+      position: relative;
+      margin-top: 15%;
+      height: 530px;
+    }
+    }
