@@ -120,17 +120,6 @@ img {
   color: #4ed85c;
   background-color:rgba(0, 0, 0, 0.4);
 }
-.banner_text{
-position: absolute;
-font-size: 1.2em;
-top: 45%;
-margin-left: 5%;
-padding: 0 10px;
-transform: translate(0, -50%);
-text-align: center;
-color: white;
-background-color:rgba(0, 0, 0, 0.4);
-}
 #logo {
     width: 100%;
     height: 500px;
@@ -139,31 +128,33 @@ background-color:rgba(0, 0, 0, 0.4);
   .titre {
     display: flex;
     justify-content: center;
+    font-family: "Sail", cursive;
+    font-size: 2em;
   }
   .text {
     margin: 1% 5%;
   }
   .line{
-    border-top: 2px solid#4ed85c;
-    border-bottom: 2px solid#4ed85c;
+    border-top: 4px solid#4ed85c;
+    border-bottom: 4px solid#4ed85c;
   }
 /*Articles*/
   .articles{
-    background-color: #525252;
+    background-color: #494949;
     margin-top: -15%;
+    margin-bottom: -15%;
   }
   .cards {
     display: flex;
     flex-direction: row;
-    margin: 15% 15%;
+    margin: 15% 3%;
   }
   .card_content {
     width: 100%;
     border: 3px solid #4ed85c;
     position: relative;
-    margin-top: 15%;
-    height: 530px;
     margin: 2% 4%;
+    height: 400px;
   }
   .card_picture img {
     height: 100%;
@@ -180,17 +171,23 @@ background-color:rgba(0, 0, 0, 0.4);
     position: absolute;
     font-size: 1em;
     top: 80%;
-    margin-left: 45%;
-    padding:0 10px;
+    margin-left: 43%;
+    padding:0 20px;
     transform: translate(0, -50%);
     text-align: center;
     color: #4ed85c;
     background-color:rgba(0, 0, 0, 0.4);
   }
+  #reunion{
+    margin-left: 40%;
+  }
+  #japon{
+    margin-left: 45%;
+  }
   .btn {
     position: absolute;
     font-size: 1em;
-    top: 90%;
+    top: 93%;
     padding: 5px;
     margin-left: 45%;
     transform: translate(0, -50%);
@@ -198,7 +195,7 @@ background-color:rgba(0, 0, 0, 0.4);
     color: #ffffff;
     text-shadow: 0 0 15px;
     background-color: #4ed85c;
-    border-radius: 30%;
+    border-radius: 40%;
   }
 
 /*Fin homepage*/
