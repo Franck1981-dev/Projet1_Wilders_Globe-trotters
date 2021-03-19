@@ -282,6 +282,16 @@ img {
 .lienrecette{
     margin-top: -2%;
 }
+#formulaire {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+                            
+#imgContact {
+     width: 80%;
+     height: auto;
+}
  /*debut Mobile*/
   @media (max-width: 992px){
     .cards {
