@@ -6,6 +6,7 @@
     <title>Wilders Globe-Trotters</title>
     <link rel="stylesheet" href="assets/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Sail&display=swap" rel="stylesheet">
