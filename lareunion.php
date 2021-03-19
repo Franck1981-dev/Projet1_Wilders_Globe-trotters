@@ -60,8 +60,9 @@
 </section>
 
 <section class="activité">
-    <div class="articleactivité"> 
-        <p> A la réunion, une bande récifale de 25 km de long borde de façon discontinue la cote ouest et sud de l'île. Ce récif corallien formé au fil du temps abrite aujourd'hui près de 150 espèces de coraux, 2000 espèces de mollusques et 900 espèces de poissons. Il constitue un véritable paradis pour les plongeurs. Quelques espèces communes : Chirurgien bagnard, poisson Demoiselle, poisson Perroquet, Idole des Maures, poisson cocher commun, Ange empereur, poisson Soldat, Papillon Raton Laveur, poisson coffre, Baliste Picasso, Murène, poisson Labre, Rascasse volante, poisson Pierre. Il vous suffit simplement d'un masque et d'une paire </p>
+    <div class="articleactivité">
+    <h2 class="soustitre"> Activités </h2>
+        <p> Il vous suffit simplement d'un masque et d'une paire de palme pour plonger dans un autre monde. A la réunion, une bande récifale de 25 km de long borde de façon discontinue la cote ouest et sud de l'île. Ce récif corallien formé au fil du temps abrite aujourd'hui près de 150 espèces de coraux, 2000 espèces de mollusques et 900 espèces de poissons. Il constitue un véritable paradis pour les plongeurs. Quelques espèces communes : Chirurgien bagnard, poisson Demoiselle, poisson Perroquet, Idole des Maures, poisson cocher commun, Ange empereur, poisson Soldat, Papillon Raton Laveur, poisson coffre, Baliste Picasso, Murène, poisson Labre, Rascasse volante, poisson Pierre. Il vous suffit simplement d'un masque et d'une paire </p>
     </div>
     <div> 
         <img class="imageactivité" src="https://204248.smushcdn.com/2066002/wp-content/uploads/2015/11/Corail-ile-de-la-reunion.jpg?lossy=0&strip=1&webp=1" alt=""/>
