@@ -24,7 +24,7 @@
 
 <section class="plat-japon">
     <div> 
-        <img class="imageplat" src="https://static.lexpress.fr/medias_12020/w_2048,h_1146,c_crop,x_0,y_154/w_1000,h_563,c_fill,g_north/v1550742170/sushi-saumon-maki-saumon-japonais_6154396.jpg" alt=""/>
+        <img class="imageplat" src="https://zupimages.net/up/21/11/z2oe.jpg" alt=""/>
     </div>
     <div class="articleplat">
         <h2 class="soustitre"> Plat traditionnel </h2>
