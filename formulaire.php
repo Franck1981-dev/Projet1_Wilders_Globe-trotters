@@ -31,6 +31,4 @@ value="Votre mail ici"
 </section>
 <!-- Connect the Javascript file -->
 <script src="assets/script.js"></script>
-</body>
 <?php include 'layout/_footer.php'; ?>
-</html>

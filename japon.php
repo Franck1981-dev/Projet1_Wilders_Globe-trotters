@@ -78,5 +78,4 @@
         <img class="imageactivité" src="https://zupimages.net/up/21/11/7zxj.jpg" alt=""/>
     </div>
 </section>
-
 <?php include 'layout/_footer.php';?>

@@ -23,6 +23,9 @@ nav {
 
 /* Balise ul, boutons de navigation (li), boutons au passage de la souris, textes des boutons */
 
+/* Hide Hamburger */
+nav label, #hamburger { display: none; }
+
 .listNav {
     list-style: none;
     background-color: #4ed85c;
@@ -72,8 +75,9 @@ nav {
 
 .socialMedia {
     display: grid;
-    grid-template-columns: repeat(3, 34%);
+    grid-template-columns: repeat(3, 33%);
     background-color: #494949;
+    height:100%;
     border-top: 4px solid #4ed85c;
 }
 
@@ -111,7 +115,7 @@ nav {
 
 /* Taille des icones */
 
-img {
+.imgSocialNetworks {
     width: 30px;
     margin-right: 10px;
     height: auto;
@@ -309,7 +313,7 @@ background-color:rgba(0, 0, 0, 0.4);
 .articleactivité {
     display: inline-block;
     text-align: center;
-    height: 400%;
+    height: 100%;
     width: 100%;
     margin-top: -20px;
 }
@@ -430,10 +434,26 @@ background-color:rgba(0, 0, 0, 0.4);
         height: 530px;
     }
 
-    .listNav {
-      display: flex;
-      flex-direction: column;
-    }
-    }
+    nav label { 
+        display: inline-block; 
+        color: white;
+        background: #4ed85c;
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 10px;
+      }
+
+  /* Break down menu items into vertical */
+  .listNav a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+  }
+
+  /* Toggle Show/Hide Menu */
+  .listNav { display: none; }
+  nav input:checked ~ .listNav { display: block; }
+}
 
 

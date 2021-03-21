@@ -68,6 +68,4 @@
         <img class="imageactivité" src="https://zupimages.net/up/21/11/ueq4.jpg" alt=""/>
     </div>
 </section>
-
-
 <?php include 'layout/_footer.php';?>

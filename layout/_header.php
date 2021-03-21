@@ -16,6 +16,9 @@
 <body>
     <header>
         <nav>
+            <!-- [THE HAMBURGER] -->
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger" />
             <ul class="listNav">
                 <a href="index.php" class="linkNav">
                     <li class="btnNav">Accueil</li>

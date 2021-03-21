@@ -68,6 +68,4 @@
         <img class="imageactivité" src="https://204248.smushcdn.com/2066002/wp-content/uploads/2015/11/Corail-ile-de-la-reunion.jpg?lossy=0&strip=1&webp=1" alt=""/>
     </div>
 </section>
-
-
 <?php include 'layout/_footer.php';?>
