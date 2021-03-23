@@ -1,10 +1,13 @@
-<?php include 'layout/_header.php';?>
+<?php
+include 'layout/_header.php';
+require 'weather/weather_japon.php'
+?>
 <h1 class="pays"> Le Japon </h1>
 
 <section class="présentation-japon">
     <div class="articleprésentation">
-        <h2 class="soustitre"> Présentation </h2> 
-            <p> Le Japon, en forme longue l'État du Japon, en japonais Nihon ou Nippon (日本) et Nihon-koku
+        <h2 class="soustitre"> Présentation </h2>
+        <p> Le Japon, en forme longue l'État du Japon, en japonais Nihon ou Nippon (日本) et Nihon-koku
             ou Nippon-koku (日本国) respectivement, est un pays insulaire de l'Asie de l'Est, situé entre l'océan
             Pacifique et la mer du Japon, à l'est de la Chine, de la Corée du Sud et de la Russie, et au nord de
             Taïwan. Étymologiquement, les kanjis (caractères chinois) qui composent le nom du Japon signifient
@@ -14,29 +17,29 @@
             pays. L'archipel s'étend sur plus de trois mille kilomètres.
             La plupart des îles sont montagneuses, parfois volcaniques. Ainsi, le plus haut sommet du Japon,
             le mont Fuji (3 776 m), est un volcan inactif depuis 1707.
-            </p>
-        </div>
+        </p>
+    </div>
 
-    <div> 
-        <img class="imageprésentation" src="https://wallpapercave.com/wp/5KyY2yI.jpg" alt=""/>
+    <div>
+        <img class="imageprésentation" src="https://wallpapercave.com/wp/5KyY2yI.jpg" alt="" />
     </div>
 </section>
 
 <section class="plat-japon">
-    <div> 
-        <img class="imageplat" src="https://zupimages.net/up/21/11/z2oe.jpg" alt=""/>
+    <div>
+        <img class="imageplat" src="https://static.lexpress.fr/medias_12020/w_2048,h_1146,c_crop,x_0,y_154/w_1000,h_563,c_fill,g_north/v1550742170/sushi-saumon-maki-saumon-japonais_6154396.jpg" alt="" />
     </div>
     <div class="articleplat">
         <h2 class="soustitre"> Plat traditionnel </h2>
-            <p> Le sushi (寿司, 鮨, 鮓) est un plat traditionnel japonais, composé d'un riz vinaigré appelé
+        <p> Le sushi (寿司, 鮨, 鮓) est un plat traditionnel japonais, composé d'un riz vinaigré appelé
             shari (舎利) combiné avec un autre ingrédient appelé neta (寿司ネタ) qui est habituellement
             du poisson cru ou des fruits de mer. Cette forme d'art culinaire est un des emblèmes de la
             cuisine japonaise dans le monde, alors que sa consommation n'est qu'occasionnelle au Japon.
             Les types de sushis les plus répandus sont les nigirizushi, constitués d'une boule de shari
-             formée à la main recouverte d'une tranche de neta, les makizushi qui sont des rouleaux de nori renfermant du shari et d'autres ingrédients ou le chirashizushi composé de shari recouvert de divers accompagnements. Il ne faut pas confondre les sushis avec les sashimis, un plat japonais constitué de tranches de poisson cru. 
-            </p>
+            formée à la main recouverte d'une tranche de neta, les makizushi qui sont des rouleaux de nori renfermant du shari et d'autres ingrédients ou le chirashizushi composé de shari recouvert de divers accompagnements. Il ne faut pas confondre les sushis avec les sashimis, un plat japonais constitué de tranches de poisson cru.
+        </p>
         <h2 class="soustitre"> Recette </h2>
-            <table class="recette">
+        <table class="recette">
             <tr>
                 <td>
                     <ul>
@@ -64,19 +67,108 @@
 </section>
 
 <section class="activité-japon">
-    <div class="articleactivité"> 
+    <div class="articleactivité">
         <h2 class="soustitre">Activités</h2>
-        <p> Vous pouvez faire une multitudes de choses au Japon !! Que se soit culturel, 
-            comme visiter des temples anciens, assiter à un tournois de sumo, porter un kimono traditionnel, 
-            ou aller geeké dans un game center, goûter la gastronomie local, comme les fameux sushi, 
-            le ramen, les okonamiyaki, ou la fameuse fondu japonaise shabushabu, 
-            mais vous pourriez aussi penser à vous détendre dans les onsens les fameuses sources d'eau chaude naturels, 
-            pique-niquer sous les cerisiers en fleurs dans des gyoen (parc), ou si vous l'osez, 
+        <p> Vous pouvez faire une multitudes de choses au Japon !! Que se soit culturel,
+            comme visiter des temples anciens, assiter à un tournois de sumo, porter un kimono traditionnel,
+            ou aller geeké dans un game center, goûter la gastronomie local, comme les fameux sushi,
+            le ramen, les okonamiyaki, ou la fameuse fondu japonaise shabushabu,
+            mais vous pourriez aussi penser à vous détendre dans les onsens les fameuses sources d'eau chaude naturels,
+            pique-niquer sous les cerisiers en fleurs dans des gyoen (parc), ou si vous l'osez,
             se balader dans la rue en cosplay.</p>
     </div>
-    <div> 
-        <img class="imageactivité" src="https://zupimages.net/up/21/11/7zxj.jpg" alt=""/>
+    <div>
+        <img class="imageactivité" src="https://zupimages.net/up/21/11/7zxj.jpg" alt="" />
     </div>
 </section>
 
-<?php include 'layout/_footer.php';?>
+<!--debut de la meteo-->
+
+<div class="container">
+    <h1>Météo du jour à <strong><?php echo $nameWeather; ?></strong></h1>
+
+    <div class="a">
+        <?php
+        switch ($weather) {
+            case "Clear":
+        ?>
+                <div class="icon sunny">
+                    <div class="sun">
+                        <div class="rays"></div>
+                    </div>
+                </div>
+            <?php
+                break;
+
+            case 'Drizzle':
+            ?>
+                <div class="icon sun-shower">
+                    <div class="cloud"></div>
+                    <div class="sun">
+                        <div class="rays"></div>
+                    </div>
+                    <div class="rain"></div>
+                </div>
+            <?php
+                break;
+
+            case 'Rain':
+            ?>
+                <div class="icon rainy">
+                    <div class="cloud"></div>
+                    <div class="rain"></div>
+                </div>
+            <?php
+                break;
+
+            case 'Clouds':
+            ?>
+                <div class="icon cloudy">
+                    <div class="cloud"></div>
+                    <div class="cloud"></div>
+                </div>
+            <?php
+                break;
+
+            case 'Thunderstorm':
+            ?>
+                <div class="icon thunder-storm">
+                    <div class="cloud"></div>
+                    <div class="lightning">
+                        <div class="bolt"></div>
+                        <div class="bolt"></div>
+                    </div>
+                </div>
+            <?php
+                break;
+
+            case 'Snow':
+            ?>
+                <div class="icon flurries">
+                    <div class="cloud"></div>
+                    <div class="snow">
+                        <div class="flake"></div>
+                        <div class="flake"></div>
+                    </div>
+                </div>
+
+        <?php
+                break;
+        }
+        ?>
+
+        <div class="meteo_desc">
+            <h2>
+                <?php echo $temp; ?> °C / Ressenti <?php echo $feel_like; ?> °C <br />
+                <?php echo $speed; ?> Km/h - <?php echo $deg; ?> ° <br />
+                <?php echo $descWeather; ?>
+            </h2>
+        </div>
+    </div>
+</div>
+
+<!--FIN meteo -->
+
+
+
+<?php include 'layout/_footer.php'; ?>
