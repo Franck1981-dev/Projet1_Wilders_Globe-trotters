@@ -3,8 +3,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-
 /*--------------------------Header-------------------------------*/
 
 
@@ -25,6 +23,9 @@ nav {
 
 /* Balise ul, boutons de navigation (li), boutons au passage de la souris, textes des boutons */
 
+/* Hide Hamburger */
+nav label, #hamburger { display: none; }
+
 .listNav {
     list-style: none;
     background-color: #4ed85c;
@@ -42,15 +43,15 @@ nav {
     align-items: center;
 }
 
-.linkNav:hover {
-    background-color: #494949;
-    color: white;
-    border-bottom: 2px solid #4ed85c;
+.linkNav:hover,.linkNavContact:hover {
+  background-color: #494949;
+  color: white;
+  border-bottom: 2px solid #4ed85c;
 }
 
-.linkNav {
-    text-decoration: none;
-    color: black;
+.linkNav,.linkNavContact {
+  text-decoration: none;
+  color: black;
 }
 
 
@@ -74,8 +75,9 @@ nav {
 
 .socialMedia {
     display: grid;
-    grid-template-columns: repeat(3, 34%);
+    grid-template-columns: repeat(3, 33%);
     background-color: #494949;
+    height:100%;
     border-top: 4px solid #4ed85c;
 }
 
@@ -112,15 +114,16 @@ nav {
 
 
 /* Taille des icones */
-/* ////////////CHANGEMENT de img EN CLASS IMG ///////////// /*
-*/.imgSocialNetworks {
-  width: 30px;
-  margin-right: 10px;
-  height: auto;
+
+.imgSocialNetworks {
+    width: 30px;
+    margin-right: 10px;
+    height: auto;
+
 }
 
 
-/*-----------------------------------------------------------*/
+/*--------------------------Homepage-------------------------------*/
 
 
 /*Debut homepage*/
@@ -204,6 +207,7 @@ div#slider {
     background-color:rgba(0, 0, 0, 0.4);
   }*/
 
+
 /*Body*/
 
 .titre {
@@ -241,6 +245,8 @@ div#slider {
     width: 100%;
     border: 3px solid #4ed85c;
     position: relative;
+    margin-top: 15%;
+    height: 530px;
     margin: 2% 4%;
     height: 400px;
 }
@@ -313,10 +319,11 @@ div#slider {
    background: #1b5c24;
    }
 
+
 /*Fin homepage*/
 
 
-/* page pays */
+/*--------------------------Page pays-------------------------------*/
 
 
 /*titre h1*/
@@ -370,7 +377,7 @@ div#slider {
 .articleactivité {
     display: inline-block;
     text-align: center;
-    height: 400%;
+    height: 100%;
     width: 100%;
     margin-top: -20px;
 }
@@ -413,7 +420,7 @@ div#slider {
 }
 
 
-/*formulaire*/
+/*--------------------------Formulaire-------------------------------*/
 
 #formulaire {
     display: flex;
@@ -474,27 +481,7 @@ div#slider {
     border-radius: 30%;
 }
 
-
-/*debut Mobile*/
-
-@media (max-width: 992px) {
-    .cards {
-        flex-direction: column;
-        justify-content: center;
-        margin: 15% 15%;
-    }
-    .card_content {
-        width: 100%;
-        border: 3px solid #4ed85c;
-        position: relative;
-        margin-top: 15%;
-        height: 530px;
-    }
-
-
-
-
-    /*DEBUT CSS WEATHER*/
+ /*DEBUT CSS WEATHER*/
     .container {
       background: #494949;
       text-align: center;
@@ -791,5 +778,47 @@ div#slider {
         background: #fff;
         opacity: 0.2;
       }
-    }
     
+
+/*--------------------------Mobile version-------------------------------*/
+
+@media (max-width: 992px) {
+    .cards {
+        flex-direction: column;
+        justify-content: center;
+        margin: 15% 15%;
+    }
+    .card_content {
+        width: 100%;
+        border: 3px solid #4ed85c;
+        position: relative;
+        margin-top: 15%;
+        height: 530px;
+    }
+
+    nav label { 
+        display: inline-block; 
+        color: white;
+        background: #4ed85c;
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 10px;
+      }
+
+  /* Break down menu items into vertical */
+  .listNav a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+  }
+
+  /* Toggle Show/Hide Menu */
+  .listNav { display: none; }
+  nav input:checked ~ .listNav { display: block; }
+}
+}
+
+
+
+

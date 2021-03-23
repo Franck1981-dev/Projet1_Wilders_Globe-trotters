@@ -158,6 +158,4 @@
                 </div>
             </div>
 
-<!--FIN meteo -->
-
 <?php include 'layout/_footer.php';?>

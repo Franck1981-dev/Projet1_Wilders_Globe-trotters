@@ -83,7 +83,6 @@ require 'weather/weather_japon.php'
 </section>
 
 <!--debut de la meteo-->
-
 <div class="container">
     <h1>Météo du jour à <strong><?php echo $nameWeather; ?></strong></h1>
 
@@ -172,3 +171,4 @@ require 'weather/weather_japon.php'
 
 
 <?php include 'layout/_footer.php'; ?>
+
