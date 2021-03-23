@@ -20,13 +20,13 @@
         </div>
     
     <div> 
-        <img class="imageprésentation" src="https://cdn.tribloo.com/storage/app/media/_mediathumbs/tribloo-destinations-7-20adeab9406937487f41a08e851e892a.jpg" alt=""/>
+        <img class="imageprésentation" src="https://zupimages.net/up/21/12/7yxf.jpg" alt=""/>
     </div>
 </section>
 
 <section class="plat">
     <div> 
-        <img class="imageplat" src="https://static.thiriet.com/data/common_public/gallery_images/site/18756/18774/108064,rougail_saucisse_et_riz_basmati_a_la_coriandre.jpg" alt=""/>
+        <img class="imageplat" src="https://zupimages.net/up/21/12/kqmx.jpg" alt=""/>
     </div>
     <div class="articleplat">
         <h2 class="soustitre"> Plat traditionnel </h2>
@@ -68,7 +68,7 @@
         <p> Il vous suffit simplement d'un masque et d'une paire de palme pour plonger dans un autre monde. A la réunion, une bande récifale de 25 km de long borde de façon discontinue la cote ouest et sud de l'île. Ce récif corallien formé au fil du temps abrite aujourd'hui près de 150 espèces de coraux, 2000 espèces de mollusques et 900 espèces de poissons. Il constitue un véritable paradis pour les plongeurs. Quelques espèces communes : Chirurgien bagnard, poisson Demoiselle, poisson Perroquet, Idole des Maures, poisson cocher commun, Ange empereur, poisson Soldat, Papillon Raton Laveur, poisson coffre, Baliste Picasso, Murène, poisson Labre, Rascasse volante, poisson Pierre. Il vous suffit simplement d'un masque et d'une paire </p>
     </div>
     <div> 
-        <img class="imageactivité" src="https://204248.smushcdn.com/2066002/wp-content/uploads/2015/11/Corail-ile-de-la-reunion.jpg?lossy=0&strip=1&webp=1" alt=""/>
+        <img class="imageactivité" src="https://zupimages.net/up/21/12/pjdt.jpg" alt=""/>
     </div>
 </section>
 
