@@ -96,7 +96,8 @@ nav {
   grid-row: 2;
 }
 /* Taille des icones */
-.img {
+/* ////////////CHANGEMENT de img EN CLASS IMG ///////////// /*
+*/.imgSocialNetworks {
   width: 30px;
   margin-right: 10px;
   height: auto;
@@ -243,7 +244,7 @@ div#slider {
   }
   .btn {
     position: absolute;
-    font-size: 1em;
+    /*font-size: 1em;
     top: 93%;
     padding: 5px;
     margin-left: 45%;
@@ -252,8 +253,40 @@ div#slider {
     color: #ffffff;
     text-shadow: 0 0 15px;
     background-color: #4ed85c;
-    /*border-radius: 10%;*/
-  }
+    border-radius: 10%;*/
+    border-top: 1px solid #97f7a5;
+   background: #65d668;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e9c4c), to(#65d668));
+   background: -webkit-linear-gradient(top, #3e9c4c, #65d668);
+   background: -moz-linear-gradient(top, #3e9c4c, #65d668);
+   background: -ms-linear-gradient(top, #3e9c4c, #65d668);
+   background: -o-linear-gradient(top, #3e9c4c, #65d668);
+   padding: 6.5px 13px;
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 11px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 13px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   margin-left: 45%;
+   top: 90%;
+   }
+.btn:hover {
+   border-top-color: #28782d;
+   background: #28782d;
+   color: #ccc;
+   }
+.btn:active {
+   border-top-color: #1b5c24;
+   background: #1b5c24;
+   }
+  
 
 /*Fin homepage*/
 
