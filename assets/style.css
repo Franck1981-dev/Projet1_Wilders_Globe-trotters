@@ -351,8 +351,8 @@ div#slider {
 .présentation,
 .plat,
 .activité {
-    height: 420px;
-    padding: 20px;
+    height: 15%;
+    padding: 0.5%;
     display: flex;
     border-bottom: 4px solid#4ed85c;
 }
@@ -364,7 +364,7 @@ div#slider {
 .plat-japon,
 .activité-japon {
     height: 430px;
-    padding: 20px;
+    padding: 1%;
     display: flex;
     border-bottom: 4px solid#4ed85c;
 }
