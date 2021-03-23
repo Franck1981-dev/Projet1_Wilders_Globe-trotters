@@ -13,6 +13,9 @@
         <img src="https://picsum.photos/id/203/2000/510" alt />
         <img src="https://picsum.photos/id/204/2000/510" alt />
       </figure>
+      <div class="banner_title">
+      <p>[Les voyages des wilders Globe-trotters]</br>Les pays que l'on veut partager !</p>
+    </div>
     </div>
     <section class="line">
         <h1 class="titre">Accueil</h1>
