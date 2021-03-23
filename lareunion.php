@@ -1,4 +1,7 @@
-<?php include 'layout/_header.php';?>
+<?php 
+    include 'layout/_header.php';
+    require 'weather/weather_reunion.php'
+?>
 
 <h1 class="pays"> L'ile de la Réunion </h1>
 
@@ -68,4 +71,93 @@
         <img class="imageactivité" src="https://204248.smushcdn.com/2066002/wp-content/uploads/2015/11/Corail-ile-de-la-reunion.jpg?lossy=0&strip=1&webp=1" alt=""/>
     </div>
 </section>
+
+<!--debut de la meteo-->
+
+<div class="container">
+                <h1>Météo du jour à <strong><?php echo $nameWeather; ?></strong></h1>
+
+                <div class="a">
+                    <?php 
+                        switch($weather)
+                        {
+                            case "Clear":
+                                ?>
+                                   <div class="icon sunny">
+                                        <div class="sun">
+                                            <div class="rays"></div>
+                                        </div>
+                                    </div>           
+                                <?php
+                                break;
+    
+                                case 'Drizzle':
+                                ?>
+                                <div class="icon sun-shower">
+                                    <div class="cloud"></div>
+                                        <div class="sun">
+                                            <div class="rays"></div>
+                                    </div>
+                                        <div class="rain"></div>
+                                </div>
+                                <?php 
+                                break;
+    
+                                case 'Rain':
+                                ?>
+                                <div class="icon rainy">
+                                    <div class="cloud"></div>
+                                    <div class="rain"></div>
+                                </div>
+                                <?php 
+                                break;
+    
+                                case 'Clouds':
+                                ?>
+                                <div class="icon cloudy">
+                                    <div class="cloud"></div>
+                                    <div class="cloud"></div>
+                                </div>
+                                <?php 
+                                break;
+    
+                                case 'Thunderstorm':
+                                ?>
+                                <div class="icon thunder-storm">
+                                    <div class="cloud"></div>
+                                        <div class="lightning">
+                                            <div class="bolt"></div>
+                                            <div class="bolt"></div>
+                                    </div>
+                                </div>
+                                <?php 
+                                break;
+    
+                                case 'Snow':
+                                ?>
+                                <div class="icon flurries">
+                                    <div class="cloud"></div>
+                                        <div class="snow">
+                                            <div class="flake"></div>
+                                            <div class="flake"></div>
+                                    </div>
+                                </div>
+    
+                                <?php 
+                                break;
+                        }
+                        ?>
+
+                        <div class="meteo_desc">
+                            <h2>
+                                <?php echo $temp; ?> °C / Ressenti <?php echo $feel_like; ?> °C <br />
+                                <?php echo $speed; ?> Km/h - <?php echo $deg; ?> ° <br /> 
+                                <?php echo $descWeather; ?>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+<!--FIN meteo -->
+
 <?php include 'layout/_footer.php';?>
