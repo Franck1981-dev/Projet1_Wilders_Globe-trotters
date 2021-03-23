@@ -12,7 +12,7 @@
             <img class="imgSocialNetworks" src="images/twitter.png" alt="twitter"></img>
         </div>
         <div class="mentions">
-            <h5>@Wilders Globe Trotters</h5>
+            <h5>©Wilders Globe Trotters 2021</h5>
         </div>
     <!--</div>-->
 </footer>
