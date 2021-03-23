@@ -122,7 +122,7 @@ nav label, #hamburger { display: none; }
 }
 
 
-/*-----------------------------------------------------------*/
+/*--------------------------Homepage-------------------------------*/
 
 
 /*Debut homepage*/
@@ -259,7 +259,7 @@ background-color:rgba(0, 0, 0, 0.4);
 /*Fin homepage*/
 
 
-/* page pays */
+/*--------------------------Page pays-------------------------------*/
 
 
 /*titre h1*/
@@ -356,7 +356,7 @@ background-color:rgba(0, 0, 0, 0.4);
 }
 
 
-/*formulaire*/
+/*--------------------------Formulaire-------------------------------*/
 
 #formulaire {
     display: flex;
@@ -418,7 +418,7 @@ background-color:rgba(0, 0, 0, 0.4);
 }
 
 
-/*debut Mobile*/
+/*--------------------------Mobile version-------------------------------*/
 
 @media (max-width: 992px) {
     .cards {
