@@ -1,69 +1,88 @@
 @media (max-width: 992px) {
-    .cards {
-        flex-direction: column;
-        justify-content: center;
-        margin: 15% 15%;
-    }
-    .card_content {
-        width: 100%;
-        border: 3px solid #4ed85c;
-        position: relative;
-        margin-top: 15%;
-        height: 530px;
-    }
-
-/*------------Hamburger--------------*/
-nav {
-  overflow: hidden;
-    display:flex;
-    position: relative;
-    width:100%;
-    justify-content: space-evenly;
+  /* -----------HOMEPAGE------------*/
+  .titre {
+    font-size: 1em;
+  }
+  .text {
+    font-size: 0.8em;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    margin: 15%;
+  }
+  .card_content {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    height: 280px;
+  }
+  .card_title {
+    position: absolute;
+    font-size: 1em;
+    top: 70%;
+    margin-left: 28%;
 }
-.listNav {
+#title_jordanie {
+    margin-left: 33%;
+}
+#title_japon {
+    margin-left: 36%;
+} 
+.btn {
+  margin-left: 36%;
+   top: 85%;
+}
+
+  /*------------Hamburger--------------*/
+  nav {
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .listNav {
     display: none;
   }
 
-/* Style navigation menu links */
-nav a, .listNavBurger{
-color: black;
-padding: 10px 10px;
-text-decoration: none;
-list-style: none;
-font-size: 17px;
-display: block;
-}
+  /* Style navigation menu links */
+  nav a,
+  .listNavBurger {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 17px;
+    display: block;
+  }
 
-/* Style the hamburger menu */
-nav a.iconBurger {
-background: #4ed85c;
-display: block;
-position: absolute;
-left: 0;
-top: 0;
-}
+  /* Style the hamburger menu */
+  nav a.iconBurger {
+    background: #4ed85c;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
 
-.listNavBurger {
-background: #4ed85c;
-margin:0;
-}
+  .listNavBurger {
+    background: #4ed85c;
+    margin: 0;
+  }
 
-
-/*.linkNav:hover {
+  /*.linkNav:hover {
 background-color: #494949;
 color: white;
 border-bottom: 2px solid #4ed85c;
 }*/
 
-.linkNavContact {
-display:none;
-}
+  .linkNavContact {
+    display: none;
+  }
 
-
-.titleNav {
-font-family: "Sail", cursive;
-font-size: 28px;
-margin-right: 5%;
-}
-
+  .titleNav {
+    font-family: "Sail", cursive;
+    font-size: 28px;
+    margin-right: 5%;
+  }
 }
