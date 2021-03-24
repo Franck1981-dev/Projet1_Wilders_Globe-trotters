@@ -2,19 +2,8 @@
     require 'fonctionformulaire.php';
 ?>
 
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAsfzu1_3sq6TTPMwWxWUt4GptuOqj8y1WcA&usqp=CAU" id="imgContact" alt="imgContact"/>
-    <title>Formulaire</title>
-</head>
-
-<body>
-    <div>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAsfzu1_3sq6TTPMwWxWUt4GptuOqj8y1WcA&usqp=CAU" id="imgContact" alt="imgContact"/>
+    
         <form id="formulaire" method="POST" action="formulaire.php">
             <div>
                 <label for="name" class="form-label">Nom:</label><br />
@@ -47,8 +36,7 @@
                 <button class="submit" type="submit">Envoi</button>
             </div>
         </form>
-    </div>
-</body>
+ 
+
 
 <?php include 'layout/_footer.php'; ?>
-</html>
