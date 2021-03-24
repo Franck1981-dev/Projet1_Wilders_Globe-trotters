@@ -108,4 +108,12 @@ margin-right: 5%;
   align-items: initial;
 }
 
+
+/*formulaire*/
+#name,
+#firstname,
+#email,
+#message {
+  width: 70%;
+}
 }
