@@ -324,25 +324,11 @@ div#slider {
 .présentation,
 .plat,
 .activité {
+    align-items: center;
     height: 15%;
     padding: 0.5%;
     display: flex;
     border-bottom: 4px solid#4ed85c;
-}
-
-
-/*partie japon*/
-
-.présentation-japon,
-.plat-japon,
-.activité-japon {
-    height: 430px;
-    padding: 1%;
-    display: flex;
-    border-bottom: 4px solid#4ed85c;
-}
-.plat-japon {
-    height: 460px;
 }
 
 /*article*/
@@ -369,8 +355,9 @@ div#slider {
 .imageprésentation,
 .imageplat,
 .imageactivité {
-    height: 100%;
-}
+    height: auto;
+    width:100%;
+}   
 
 .imageprésentation {
     margin-top: -2%;
