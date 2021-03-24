@@ -23,8 +23,10 @@ nav {
 
 /* Balise ul, boutons de navigation (li), boutons au passage de la souris, textes des boutons */
 
-/* Hide Hamburger */
-nav label, #hamburger { display: none; }
+/*Menu Burger caché*/
+.listNavBurger {
+  display:none;
+}
 
 .listNav {
     list-style: none;
@@ -33,6 +35,7 @@ nav label, #hamburger { display: none; }
     padding-left: 0;
     margin-right: 2%;
 }
+
 
 .btnNav {
     padding-left: 20px;
@@ -782,7 +785,3 @@ div#slider {
       }
     
     }
-
-
-
-

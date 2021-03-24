@@ -12,24 +12,58 @@
         height: 530px;
     }
 
-    nav label { 
-        display: inline-block; 
-        color: white;
-        background: #4ed85c;
-        font-style: normal;
-        font-size: 1.2em;
-        padding: 10px;
-      }
-
-  /* Break down menu items into vertical */
-  .listNav a {
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
-    border-top: 1px solid #333;
+/*------------Hamburger--------------*/
+nav {
+  overflow: hidden;
+    display:flex;
+    position: relative;
+    width:100%;
+    justify-content: space-evenly;
+}
+.listNav {
+    display: none;
   }
 
-  /* Toggle Show/Hide Menu */
-  .listNav { display: none; }
-  nav input:checked ~ .listNav { display: block; }
+/* Style navigation menu links */
+nav a, .listNavBurger{
+color: black;
+padding: 10px 10px;
+text-decoration: none;
+list-style: none;
+font-size: 17px;
+display: block;
+}
+
+/* Style the hamburger menu */
+nav a.iconBurger {
+background: #4ed85c;
+display: block;
+position: absolute;
+left: 0;
+top: 0;
+}
+
+.listNavBurger {
+background: #4ed85c;
+margin:0;
+}
+
+
+/*.linkNav:hover {
+background-color: #494949;
+color: white;
+border-bottom: 2px solid #4ed85c;
+}*/
+
+.linkNavContact {
+display:none;
+}
+
+
+.titleNav {
+font-family: "Sail", cursive;
+font-size: 28px;
+margin-right: 5%;
+}
+
 }
