@@ -1,70 +1,103 @@
 @media (max-width: 768px) {
-    .cards {
-        flex-direction: column;
-        justify-content: center;
-        margin: 15% 15%;
-    }
-    .card_content {
-        width: 100%;
-        border: 3px solid #4ed85c;
-        position: relative;
-        margin-top: 15%;
-        height: 530px;
-    }
+  /* -----------HOMEPAGE------------*/
+  .titre {
+    font-size: 1em;
+  }
+  .text {
+    font-size: 0.8em;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    margin: 15%;
+  }
+  .card_content {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    height: 280px;
+  }
+  .card_title {
+    position: absolute;
+    font-size: 1em;
+    top: 70%;
+    margin-left: 28%;
+}
+#title_jordanie {
+    margin-left: 33%;
+}
+#title_japon {
+    margin-left: 36%;
+} 
+.btn {
+  margin-left: 36%;
+   top: 85%;
+}
 
-/*------------Hamburger--------------*/
+/*--------------------Menu Hamburger--------------------*/
 nav {
   overflow: hidden;
     display:flex;
     position: relative;
-    width:100%;
+    width: 100%;
     justify-content: space-evenly;
 }
+
+/* La barre de navigation Desktop est cachée dans la version mobile. */
 .listNav {
     display: none;
   }
 
-/* Style navigation menu links */
 nav a, .listNavBurger{
 color: black;
 padding: 10px 10px;
 text-decoration: none;
 list-style: none;
-font-size: 17px;
-display: block;
 }
 
-/* Style the hamburger menu */
+nav a {
+  display: block;
+}
+
+/* Par défaut, la navigation mobile est cachée. C'est le javascript qui se charge de l'afficher grâce à l'event "onclick". */
+.listNavBurger {
+  display: none;
+  background: #4ed85c;
+    margin: 0;
+}
+
+/*Style et positionnement de l'icone Hamburger */
+
 nav a.iconBurger {
 background: #4ed85c;
 display: block;
 position: absolute;
 left: 0;
 top: 0;
+margin-left:10px;
+margin-top:10px;
 }
 
-.listNavBurger {
-background: #4ed85c;
-margin:0;
+.linkTitle {
+font-size: 25px;
 }
 
-
-/*.linkNav:hover {
-background-color: #494949;
-color: white;
-border-bottom: 2px solid #4ed85c;
-}*/
+/*--------------------Footer--------------------*/
 
 .linkNavContact {
 display:none;
 }
-
-
-.titleNav {
-font-family: "Sail", cursive;
-font-size: 28px;
-margin-right: 5%;
+.mentions {
+  padding-right: 1em;
 }
+
+.socialMedia {
+  display: block;
+}
+.mentions {
+  justify-content: center;
+  padding:0;
+}
+
 /* -----------------page pays-------------------------- */
 
 .présentation {
@@ -103,12 +136,16 @@ margin-right: 5%;
   align-items: center;
 }
 
-.recette {
-  
-  align-items: initial;
+.ingrédient {
+  justify-content: space-between;  
 }
-
-
+.recette {
+  border-top: 2px solid #4ed85c;
+  border-left: 2px solid #4ed85c;
+  border-right: 2px solid #4ed85c;
+  border-radius: 20px;
+  margin-top: 5%;
+}  
 /*formulaire*/
 #name,
 #firstname,
@@ -117,3 +154,4 @@ margin-right: 5%;
   width: 70%;
 }
 }
+
