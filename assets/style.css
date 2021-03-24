@@ -31,6 +31,7 @@ nav {
 .listNav {
     list-style: none;
     background-color: #4ed85c;
+    width:auto;
     margin-left: 2%;
     padding-left: 0;
     margin-right: 2%;
@@ -70,6 +71,9 @@ nav {
     text-decoration: none;
 }
 
+.btnNav {
+  white-space: nowrap; 
+}
 
 /*--------------------------Footer-------------------------------*/
 
@@ -369,7 +373,8 @@ div#slider {
 .imageprésentation,
 .imageplat,
 .imageactivité {
-    height: 100%;
+  width:100%;
+    height: auto;
 }
 
 .imageprésentation {

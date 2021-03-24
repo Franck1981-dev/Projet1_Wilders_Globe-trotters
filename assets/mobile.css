@@ -37,9 +37,10 @@
 nav {
   overflow: hidden;
     display:flex;
+    flex-direction:row-reverse;
     position: relative;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 /* La barre de navigation Desktop est cachée dans la version mobile. */
@@ -70,11 +71,6 @@ nav a {
 nav a.iconBurger {
 background: #4ed85c;
 display: block;
-position: absolute;
-left: 0;
-top: 0;
-margin-left:10px;
-margin-top:10px;
 }
 
 .linkTitle {
