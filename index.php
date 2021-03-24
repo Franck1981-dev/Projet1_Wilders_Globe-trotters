@@ -8,15 +8,12 @@
     </div> -->
     <div id="slider">
       <figure>
-        <img src="https://picsum.photos/id/200/2000/510" alt />
-        <img src="https://picsum.photos/id/201/2000/510" alt />
-        <img src="https://picsum.photos/id/202/2000/510" alt />
-        <img src="https://picsum.photos/id/203/2000/510" alt />
-        <img src="https://picsum.photos/id/204/2000/510" alt />
+        <img src="https://zupimages.net/up/21/12/sham.jpeg" alt />
+        <img src="https://zupimages.net/up/21/12/vjjq.jpeg" alt />
+        <img src="https://zupimages.net/up/21/12/ue42.jpeg" alt />
+        <img src="https://zupimages.net/up/21/12/1771.jpeg" alt />
+        <img src="https://zupimages.net/up/21/12/sham.jpeg" alt />
       </figure>
-      <div class="banner_title">
-      <p>[Les voyages des wilders Globe-trotters]</br>Les pays que l'on veut partager !</p>
-    </div>
     </div>
     <section class="line">
         <h1 class="titre">Accueil</h1>
@@ -38,7 +35,7 @@
                 src="https://zupimages.net/up/21/11/yhfq.jpg"
                 alt="jordanie"
                 />
-                <h3 class="card_title">Jordanie</h3>
+                <h3 class="card_title" id="title_jordanie">Jordanie</h3>
                 <a href="jordanie.php" class="btn">Découvrir</a>
             </div>
             </div>
@@ -60,7 +57,7 @@
                 src=" https://images8.alphacoders.com/887/887586.jpg"
                 alt="japon"
                 />
-                <h3 class="card_title">Japon</h3>
+                <h3 class="card_title" id="title_japon">Japon</h3>
                 <a href="japon.php" class="btn">Découvrir</a>
             </div>
             </div>

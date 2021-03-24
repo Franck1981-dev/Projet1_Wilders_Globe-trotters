@@ -1,7 +1,7 @@
 <?php
    // Url de l'API
     //$url = "http://api.openweathermap.org/data/2.5/weather?q=VILLE&lang=fr&units=metric&appid=TOKEN";
-	$urlWeather = "http://api.openweathermap.org/data/2.5/weather?q=Saint-Denis&lang=fr&units=metric&appid=a1683e6a72ef1cd52e8cbe5bd25d5aaf";
+	$urlWeather = "http://api.openweathermap.org/data/2.5/weather?q=Saint-Denis,RE&lang=fr&units=metric&appid=a1683e6a72ef1cd52e8cbe5bd25d5aaf";
 
 
     // On get les resultat

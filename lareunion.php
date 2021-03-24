@@ -58,7 +58,6 @@
         <p class="lienrecette">Pour réaliser la recette, c'est par ici: <br>
                 <a href="https://cuisine.journaldesfemmes.fr/recette/352712-rougail-saucisses">Bonne dégustation!</a>        
         </p>
-        
     </div>
 </section>
 
