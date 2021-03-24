@@ -4,7 +4,7 @@ require 'weather/weather_japon.php'
 ?>
 <h1 class="pays"> Le Japon </h1>
 
-<section class="présentation-japon">
+<section class="présentation">
     <div class="articleprésentation">
         <h2 class="soustitre"> Présentation </h2>
         <p> Le Japon, en forme longue l'État du Japon, en japonais Nihon ou Nippon (日本) et Nihon-koku
@@ -25,7 +25,7 @@ require 'weather/weather_japon.php'
     </div>
 </section>
 
-<section class="plat-japon">
+<section class="plat">
     <div>
         <img class="imageplat" src="https://zupimages.net/up/21/12/kokg.jpg" alt="" />
     </div>
@@ -66,7 +66,7 @@ require 'weather/weather_japon.php'
     </div>
 </section>
 
-<section class="activité-japon">
+<section class="activité">
     <div class="articleactivité">
         <h2 class="soustitre">Activités</h2>
         <p> Vous pouvez faire une multitudes de choses au Japon !! Que se soit culturel,

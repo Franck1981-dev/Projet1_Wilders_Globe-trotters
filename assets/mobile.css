@@ -65,29 +65,47 @@ font-family: "Sail", cursive;
 font-size: 28px;
 margin-right: 5%;
 }
-/* page pays */
+/* -----------------page pays-------------------------- */
 
 .présentation {
   flex-direction: column-reverse;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;  
 }
 
 .imageprésentation {
   width: 100%;
+  align-items: center;  
 }
 
 .plat {
   flex-direction: column;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;  
 }
 
 .imageplat {
   width: 100%;
+  align-items: center;  
 }
 
 .activité {
   flex-direction: column-reverse;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;  
 }
 
 .imageactivité {
   width: 100%;
+  align-items: center;
 }
+
+.recette {
+  
+  align-items: initial;
+}
+
 }
