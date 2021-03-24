@@ -65,5 +65,29 @@ font-family: "Sail", cursive;
 font-size: 28px;
 margin-right: 5%;
 }
+/* page pays */
 
+.présentation {
+  flex-direction: column-reverse;
+}
+
+.imageprésentation {
+  width: 100%;
+}
+
+.plat {
+  flex-direction: column;
+}
+
+.imageplat {
+  width: 100%;
+}
+
+.activité {
+  flex-direction: column-reverse;
+}
+
+.imageactivité {
+  width: 100%;
+}
 }
