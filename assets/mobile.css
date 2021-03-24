@@ -1,18 +1,4 @@
 @media (max-width: 768px) {
-<<<<<<< HEAD
-    .cards {
-        flex-direction: column;
-        justify-content: center;
-        margin: 15% 15%;
-    }
-    .card_content {
-        width: 100%;
-        border: 3px solid #4ed85c;
-        position: relative;
-        margin-top: 15%;
-        height: 530px;
-    }
-=======
   /* -----------HOMEPAGE------------*/
   .titre {
     font-size: 1em;
@@ -46,7 +32,6 @@
   margin-left: 36%;
    top: 85%;
 }
->>>>>>> 7c34618af4d0d413819df64fa150250a3067b101
 
 /*--------------------Menu Hamburger--------------------*/
 nav {
