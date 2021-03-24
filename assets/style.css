@@ -461,16 +461,17 @@ div#slider {
       background: #494949;
       text-align: center;
       padding: 5px;
+      color :#494949;
     }
     .container h1 {
-      color: white;
       font-weight: lighter;
       text-transform: uppercase;
+      color: #4ed85c;
     }
     .meteo_desc h2 {
-      color: white;
       font-weight: lighter;
       text-align: left;
+      color :#4ed85c;
     }
     .a{
         display: flex;
