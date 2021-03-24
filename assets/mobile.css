@@ -33,56 +33,120 @@
    top: 85%;
 }
 
-  /*------------Hamburger--------------*/
-  nav {
-    overflow: hidden;
-    display: flex;
+/*--------------------Menu Hamburger--------------------*/
+nav {
+  overflow: hidden;
+    display:flex;
     position: relative;
     width: 100%;
     justify-content: space-evenly;
-  }
-  .listNav {
-    display: none;
-  }
-
-  /* Style navigation menu links */
-  nav a,
-  .listNavBurger {
-    color: black;
-    padding: 10px 10px;
-    text-decoration: none;
-    list-style: none;
-    font-size: 17px;
-    display: block;
-  }
-
-  /* Style the hamburger menu */
-  nav a.iconBurger {
-    background: #4ed85c;
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
-
-  .listNavBurger {
-    background: #4ed85c;
-    margin: 0;
-  }
-
-  /*.linkNav:hover {
-background-color: #494949;
-color: white;
-border-bottom: 2px solid #4ed85c;
-}*/
-
-  .linkNavContact {
-    display: none;
-  }
-
-  .titleNav {
-    font-family: "Sail", cursive;
-    font-size: 28px;
-    margin-right: 5%;
-  }
 }
+
+/* La barre de navigation Desktop est cachée dans la version mobile. */
+.listNav {
+    display: none;
+  }
+
+nav a, .listNavBurger{
+color: black;
+padding: 10px 10px;
+text-decoration: none;
+list-style: none;
+}
+
+nav a {
+  display: block;
+}
+
+/* Par défaut, la navigation mobile est cachée. C'est le javascript qui se charge de l'afficher grâce à l'event "onclick". */
+.listNavBurger {
+  display: none;
+  background: #4ed85c;
+    margin: 0;
+}
+
+/*Style et positionnement de l'icone Hamburger */
+
+nav a.iconBurger {
+background: #4ed85c;
+display: block;
+position: absolute;
+left: 0;
+top: 0;
+margin-left:10px;
+margin-top:10px;
+}
+
+.linkTitle {
+font-size: 25px;
+}
+
+/*--------------------Footer--------------------*/
+
+.linkNavContact {
+display:none;
+}
+.mentions {
+  padding-right: 1em;
+}
+
+.socialMedia {
+  display: block;
+}
+.mentions {
+  justify-content: center;
+  padding:0;
+}
+
+/* -----------------page pays-------------------------- */
+
+.présentation {
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;  
+}
+
+.imageprésentation {
+  width: 100%;
+  align-items: center;  
+}
+
+.plat {
+  flex-direction: column;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;  
+}
+
+.imageplat {
+  width: 100%;
+  align-items: center;  
+}
+
+.activité {
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;  
+}
+
+.imageactivité {
+  width: 100%;
+  align-items: center;
+}
+
+.ingrédient {
+  justify-content: space-between;  
+}
+
+
+.recette {
+  border-top: 2px solid #4ed85c;
+  border-left: 2px solid #4ed85c;
+  border-right: 2px solid #4ed85c;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+}
+
