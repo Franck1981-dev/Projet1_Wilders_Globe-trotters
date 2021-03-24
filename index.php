@@ -28,39 +28,24 @@
         <h2 class="titre">Les pays visités</h2>
         </article>
         <article class="articles">
-        <div class="cards">
-            <div class="card_content">
-            <div class="card_picture">
-                <img
-                src="https://zupimages.net/up/21/11/yhfq.jpg"
-                alt="jordanie"
-                />
-                <h3 class="card_title" id="title_jordanie">Jordanie</h3>
+
+        <div class="cartes">
+
+            <div class="carte" id="jordanie">
+            <h3 class="titre_carte">Jordanie</h3>
                 <a href="jordanie.php" class="btn">Découvrir</a>
             </div>
-            </div>
 
-            <div class="card_content">
-            <div class="card_picture">
-                <img
-                src=" https://www.noble-caledonia.co.uk/thumb.php?source_type=editable_pages&source_info%5Bmedia_gallery_item_id%5D=36717&source_info%5Burl%5D=%2Fab%2Fuploads%2FNCD%2Fshutterstock_110491838.jpg&source_info%5Bsecure_url%5D=%2Fab%2Fuploads%2FNCD%2Fshutterstock_110491838.jpg&source_info%5Brelative_url%5D=%2Fab%2Fuploads%2FNCD%2Fshutterstock_110491838.jpg&source_info%5Balt%5D=Beach+at+Boucan+Canot+on+Reunion&source_info%5Bcaption%5D=Beach+at+Boucan+Canot+on+Reunion&source_info%5Bwidth%5D=800&source_info%5Bheight%5D=533&source_info%5Bfilesystem_path%5D=%2Fhome%2Fdev%2Fpublic%2FCWT%2FMediaGallery%2Fuploads%2FAB%2FNCD%2Fshutterstock_110491838.jpg&source_info%5Btype%5D=JPEG+Image&source_info%5Bmime_type%5D=image%2Fjpeg&action=A.802.400"
-                alt="la reunion"
-                />
-                <h3 class="card_title">La Réunion</h3>
+            <div class="carte" id="reunion">
+            <h3 class="titre_carte">La Réunion</h3>
                 <a href="lareunion.php" class="btn">Découvrir</a>
             </div>
-            </div>
 
-            <div class="card_content">
-            <div class="card_picture">
-                <img
-                src=" https://images8.alphacoders.com/887/887586.jpg"
-                alt="japon"
-                />
-                <h3 class="card_title" id="title_japon">Japon</h3>
+            <div class="carte" id="japon">
+            <h3 class="titre_carte">Japon</h3>
                 <a href="japon.php" class="btn">Découvrir</a>
             </div>
-            </div>
+
         </div>
         </article>
     </section>
