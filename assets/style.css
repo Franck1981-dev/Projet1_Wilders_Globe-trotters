@@ -310,6 +310,18 @@ div#slider figure {
     font-family: sail;
 }
 
+/*qui sommes nous*/
+
+.text {
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    width: 85%;
+    margin-top: 0.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
 
 /*bloc article/image*/
 

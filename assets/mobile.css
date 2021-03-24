@@ -135,7 +135,6 @@ display:none;
   width: 80%;
 }
 #formulaire {
-  display:flex;
   flex-direction: column;
   align-items: center;
 }
