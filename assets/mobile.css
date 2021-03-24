@@ -150,6 +150,11 @@ display:none;
 #message {
   width: 70%;
 }
+#formulaire {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
 /*css meteo*/
 .container {
   font-size: 0.5em;
