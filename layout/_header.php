@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Wilders Globe-Trotters</title>
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/mobile.css">
     <!-- Load Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <meta name="viewport" content="width=device-width, initial-scale=1">
