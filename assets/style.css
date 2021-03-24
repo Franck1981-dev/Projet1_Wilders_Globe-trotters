@@ -372,12 +372,12 @@ div#slider figure {
 /*--------------------------Formulaire-------------------------------*/
 
 #formulaire {
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
-    width: 450px;
+    width: 80%;
     font-size: 20px;
     margin-bottom: 20px;
     margin-left: auto;
@@ -417,7 +417,6 @@ div#slider figure {
 }
 
 .submit {
-    display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
