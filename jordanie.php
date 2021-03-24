@@ -1,6 +1,6 @@
 <?php
      include 'layout/_header.php';
-     require 'weather/weather_jordanie.php'
+     require 'weather/weather_jordanie.php';
 ?>
 
 <h1 class="pays"> La Jordanie </h1>
@@ -19,13 +19,13 @@
         </div>
     
     <div> 
-        <img class="imageprésentation" src="https://zupimages.net/up/21/11/krch.jpg" alt=""/>
+        <img class="imageprésentation" src="https://zupimages.net/up/21/12/ofth.jpeg" alt=""/>
     </div>
 </section>
 
 <section class="plat">
     <div> 
-        <img class="imageplat" src="http://www.lesfoodies.com/_recipeimage/104548/mansaf-plat-national-jordanie.jpg" alt=""/>
+        <img class="imageplat" src="https://zupimages.net/up/21/12/w09p.jpeg" alt=""/>
     </div>
     <div class="articleplat">
         <h2 class="soustitre"> Plat traditionnel </h2>
@@ -40,7 +40,7 @@
                         <li class="ingrédient">-1kg d'agneau</li>
                         <li class="ingrédient">-250g de riz</li>
                         <li class="ingrédient">-4 gousses d'ail</li>
-                        <li class="ingrédient">-700gr de yaourt</li>
+                        <li class="ingrédient">-700g de yaourt</li>
                         <li class="ingrédient">-une poignée de pignons de pignons</li>
                 </td>
                 <td>
@@ -68,7 +68,7 @@
             Durant ce safari, vous pourrez faire une pause afin de déguster un délicieux thé traditionnel, préparé par un bédouin.</p>
     </div>
     <div>
-        <img class="imageactivité" src="https://zupimages.net/up/21/11/ueq4.jpg" alt=""/>
+        <img class="imageactivité" src="https://zupimages.net/up/21/12/1qke.jpeg" alt=""/>
     </div>
 </section>
 
@@ -78,10 +78,9 @@
                 <h1>Météo du jour à <strong><?php echo $nameWeather; ?></strong></h1>
 
                 <div class="a">
-                    <?php 
-                        switch($weather)
-                        {
-                            case "Clear":
+                    <?php
+                        switch ($weather) {
+                            case 'Clear':
                                 ?>
                                    <div class="icon sunny">
                                         <div class="sun">
@@ -90,7 +89,7 @@
                                     </div>           
                                 <?php
                                 break;
-    
+
                                 case 'Drizzle':
                                 ?>
                                 <div class="icon sun-shower">
@@ -100,27 +99,27 @@
                                     </div>
                                         <div class="rain"></div>
                                 </div>
-                                <?php 
+                                <?php
                                 break;
-    
+
                                 case 'Rain':
                                 ?>
                                 <div class="icon rainy">
                                     <div class="cloud"></div>
                                     <div class="rain"></div>
                                 </div>
-                                <?php 
+                                <?php
                                 break;
-    
+
                                 case 'Clouds':
                                 ?>
                                 <div class="icon cloudy">
                                     <div class="cloud"></div>
                                     <div class="cloud"></div>
                                 </div>
-                                <?php 
+                                <?php
                                 break;
-    
+
                                 case 'Thunderstorm':
                                 ?>
                                 <div class="icon thunder-storm">
@@ -130,9 +129,9 @@
                                             <div class="bolt"></div>
                                     </div>
                                 </div>
-                                <?php 
+                                <?php
                                 break;
-    
+
                                 case 'Snow':
                                 ?>
                                 <div class="icon flurries">
@@ -143,7 +142,7 @@
                                     </div>
                                 </div>
     
-                                <?php 
+                                <?php
                                 break;
                         }
                         ?>
@@ -158,4 +157,4 @@
                 </div>
             </div>
 
-<?php include 'layout/_footer.php';?>
+<?php include 'layout/_footer.php'; ?>
