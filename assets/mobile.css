@@ -1,4 +1,4 @@
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   /* -----------HOMEPAGE------------*/
   .titre {
     font-size: 1em;
@@ -139,14 +139,19 @@ display:none;
 .ingrédient {
   justify-content: space-between;  
 }
-
-
 .recette {
   border-top: 2px solid #4ed85c;
   border-left: 2px solid #4ed85c;
   border-right: 2px solid #4ed85c;
   border-radius: 20px;
   margin-top: 5%;
+}  
+/*formulaire*/
+#name,
+#firstname,
+#email,
+#message {
+  width: 70%;
 }
 }
 
