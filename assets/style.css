@@ -24,7 +24,7 @@ nav {
 /* Balise ul, boutons de navigation (li), boutons au passage de la souris, textes des boutons */
 
 /*Menu Burger caché*/
-.listNavBurger {
+.listNavBurger,.iconBurger {
   display:none;
 }
 
