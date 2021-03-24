@@ -71,11 +71,55 @@ display:none;
 .mentions {
   padding-right: 1em;
 }
+
 .socialMedia {
   display: block;
 }
 .mentions {
   justify-content: center;
   padding:0;
+
+/* -----------------page pays-------------------------- */
+
+.présentation {
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;  
 }
+
+.imageprésentation {
+  width: 100%;
+  align-items: center;  
+}
+
+.plat {
+  flex-direction: column;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;  
+}
+
+.imageplat {
+  width: 100%;
+  align-items: center;  
+}
+
+.activité {
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;  
+}
+
+.imageactivité {
+  width: 100%;
+  align-items: center;
+}
+
+.recette {
+  
+  align-items: initial;
+}
+
 }
