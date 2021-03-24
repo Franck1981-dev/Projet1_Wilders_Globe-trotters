@@ -354,8 +354,8 @@ div#slider {
 .présentation,
 .plat,
 .activité {
-    height: 420px;
-    padding: 20px;
+    height: 15%;
+    padding: 0.5%;
     display: flex;
     border-bottom: 4px solid#4ed85c;
 }
@@ -367,11 +367,13 @@ div#slider {
 .plat-japon,
 .activité-japon {
     height: 430px;
-    padding: 20px;
+    padding: 1%;
     display: flex;
     border-bottom: 4px solid#4ed85c;
 }
-
+.plat-japon {
+    height: 460px;
+}
 
 /*article*/
 
@@ -382,11 +384,13 @@ div#slider {
     text-align: center;
     height: 100%;
     width: 100%;
-    margin-top: -20px;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .articleprésentation {
-    margin-top: -4%;
+    margin-top: -1%;
 }
 
 
@@ -395,9 +399,7 @@ div#slider {
 .imageprésentation,
 .imageplat,
 .imageactivité {
-    width: 70%;
     height: 100%;
-    padding-left: 15%;
 }
 
 .imageprésentation {

@@ -21,13 +21,13 @@ require 'weather/weather_japon.php'
     </div>
 
     <div>
-        <img class="imageprésentation" src="https://wallpapercave.com/wp/5KyY2yI.jpg" alt="" />
+        <img class="imageprésentation" src="https://zupimages.net/up/21/12/pc6w.jpg" alt="" />
     </div>
 </section>
 
 <section class="plat-japon">
     <div>
-        <img class="imageplat" src="https://static.lexpress.fr/medias_12020/w_2048,h_1146,c_crop,x_0,y_154/w_1000,h_563,c_fill,g_north/v1550742170/sushi-saumon-maki-saumon-japonais_6154396.jpg" alt="" />
+        <img class="imageplat" src="https://zupimages.net/up/21/12/kokg.jpg" alt="" />
     </div>
     <div class="articleplat">
         <h2 class="soustitre"> Plat traditionnel </h2>
@@ -78,7 +78,7 @@ require 'weather/weather_japon.php'
             se balader dans la rue en cosplay.</p>
     </div>
     <div>
-        <img class="imageactivité" src="https://zupimages.net/up/21/11/7zxj.jpg" alt="" />
+        <img class="imageactivité" src="https://zupimages.net/up/21/12/ezba.jpg" alt="" />
     </div>
 </section>
 
