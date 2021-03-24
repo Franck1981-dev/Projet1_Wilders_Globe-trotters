@@ -214,61 +214,39 @@ div#slider figure {
 
 /*Articles*/
 
-.articles {
-    background-color: #494949;
-    margin-top: -15%;
-    margin-bottom: -15%;
+.cartes {
+  display: flex;
+  flex-direction: row;
+  background-color: #494949;
 }
-
-.cards {
-    display: flex;
-    flex-direction: row;
-    margin: 15% 3%;
+.carte {
+  border: 3px solid #4ed85c;
+  width: 30%;
+  margin: 5%;
+  text-align: center;
 }
-
-.card_content {
-    width: 100%;
-    border: 3px solid #4ed85c;
-    position: relative;
-    margin-top: 15%;
-    height: 500px;
-    margin: 2% 4%; 
+#jordanie {
+  background: url(https://zupimages.net/up/21/12/l5xf.jpg);
+  background-size: cover;
 }
-
-.card_picture img {
-    height: 100%;
-    display: block;
-    width: 100%;
+#reunion {
+  background: url(https://zupimages.net/up/21/12/9256.jpg);
+  background-size: cover;
 }
-
-.card_picture {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
+#japon {
+  background: url(https://zupimages.net/up/21/12/y6qg.jpg);
+  background-size: cover;
 }
-
-.card_title {
-    position: absolute;
-    font-size: 1em;
-    top: 80%;
-    margin-left: 38%;
-    padding: 0 20px;
-    text-align: center;
-    color: #4ed85c;
-    background-color: rgba(0, 0, 0, 0.4);
+.titre_carte {
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 1em;
+  color: #4ed85c;
+  margin-top: 100%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
-
-#title_jordanie {
-    margin-left: 40%;
-}
-
-#title_japon {
-    margin-left: 43%;
-} 
 
 .btn {
-    position: absolute;
     border-top: 1px solid #97f7a5;
    background: #65d668;
    background: -webkit-gradient(linear, left top, left bottom, from(#3e9c4c), to(#65d668));
@@ -285,12 +263,10 @@ div#slider figure {
    box-shadow: rgba(0,0,0,1) 0 1px 0;
    text-shadow: rgba(0,0,0,.4) 0 1px 0;
    color: white;
-   font-size: 13px;
+   font-size: 0.6em;
    font-family: Georgia, serif;
    text-decoration: none;
    vertical-align: middle;
-   margin-left: 43%;
-   top: 90%;
    }
 
 .btn:hover {
