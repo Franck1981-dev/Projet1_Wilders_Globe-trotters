@@ -21,7 +21,7 @@
 </section>
 <section>
     <h2 class="titre">Qui sommes-nous</h2>
-    <article class="text">Nous sommes un groupe de 5 Wilders globe-trotters composés de: Mickael, Alexandre, Kevin et Guillaume.<br> 
+    <article class="text">Nous sommes un groupe de 5 Wilders globe-trotters composés de: Mickael,Franck, Alexandre, Kevin et Guillaume.<br> 
         Nous nous sommes rencontrés autour d'un projet commun à la Wild Code School où nous avons décidé de vous faire partager notre expérience.<br>
         Amoureux de voyage et désireux de faire partager aux plus curieux d'entre vous, vous trouverez en explorant notre site, toutes nos découvertes, 
         astuces et informations sur les pays que nous avons visité.<br>
