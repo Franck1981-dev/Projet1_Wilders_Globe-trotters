@@ -1,26 +1,42 @@
-<?php include 'layout/_header.php';?>
-       
-      <img src="assets/Contact.png" alt="imgContact" width="150" />
-    <section id="contact">
-      <form id="contactForm">
-        <label for="name">First name:</label><br />
-        <input type="text" id="name" name="name" value="Name" /><br />
-        <label for="email">Email:</label><br />
-        <input
-          type="email"
-          id="email"
-          name="email"
-          value="example@mail.com"
-        /><br />
-        <label for="message">Message:</label><br />
-        <textarea id="message" name="message"></textarea>
-        <br /><br />
-        <input type="submit" value="Envoi" />
-      </form>
-    </section>
+<?php include 'layout/_header.php';
+    require 'fonctionformulaire.php';
+?>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAsfzu1_3sq6TTPMwWxWUt4GptuOqj8y1WcA&usqp=CAU" id="imgContact" alt="imgContact"/>
     
-    <!-- Connect the Javascript file -->
-    <script src="script.js"></script>
-  </body>
-  <?php include 'layout/_footer.php';?>
-</html>
+        <form id="formulaire" method="POST" action="formulaire.php">
+            <div>
+                <label for="name" class="form-label">Nom:</label><br />
+                <input type="text" id="name" name="name" class="form-control" placeholder="Votre nom ici" ><br /><br />
+            </div>
+            <div>
+                <label for="firstname" class="form-label">Prénom:</label><br />
+                <input type="text" id="firstname" name="firstname" class="form-control" placeholder="Votre prénom ici" ><br /><br />
+            </div>
+            <div>
+                <label for="email" class="form-label">Email:</label><br />
+                <input type="text" id="email" name="email" class="form-control" placeholder="name@example.com" ><br /><br />
+            </div>
+            <div>
+                <label for="message" class="form-label">Message:</label><br />
+                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Votre message ici" ></textarea><br /><br />
+            </div>         
+            <?php
+            if (!empty($errors)) {
+                foreach ($errors as $error) {
+                    ?>
+                    <div class="alert" role="alert">
+                        <?php echo $error; ?><br />
+                    </div>
+            <?php
+                }
+            }
+            ?>
+            <div>
+                <button class="submit" type="submit">Envoi</button>
+            </div>
+        </form>
+ 
+
+
+<?php include 'layout/_footer.php'; ?>

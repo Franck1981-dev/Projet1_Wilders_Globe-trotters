@@ -1,58 +1,57 @@
-<?php include 'layout/_header.php';?>
-    <div class="banner">
+<?php include 'layout/_header.php'; ?>
+<!-- <div class="banner">
         <img src="https://zupimages.net/up/21/11/g607.jpg" id="logo" alt="logo"/>
         <div class="banner_background">
         <p class="banner_title">[Les voyages des wilders Globe-trotters]</p>
         <p class="banner_text">Les pays que l'on veut partager !</p>
         </div>
-    </div>
-    <section class="line">
-        <h1 class="titre">Accueil</h1>
+    </div> -->
+<div id="slider">
+    <figure>
+        <img src="https://zupimages.net/up/21/12/sham.jpeg" alt />
+        <img src="https://zupimages.net/up/21/12/vjjq.jpeg" alt />
+        <img src="https://zupimages.net/up/21/12/ue42.jpeg" alt />
+        <img src="https://zupimages.net/up/21/12/1771.jpeg" alt />
+        <img src="https://zupimages.net/up/21/12/sham.jpeg" alt />
+    </figure>
+</div>
+<section class="line">
+    <h1 class="titre">Accueil</h1>
 
-    </section>
-    <section>
-        <h2 class="titre">Qui sommes-nous</h2>
-        <article class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dolore odio placeat quidem, veritatis harum reprehenderit, ipsa non delectus quaerat corrupti obcaecati eius quo asperiores at laborum quibusdam cumque esse?</article>
-    </section>
-    <section>
-        <article class="line">
+</section>
+<section>
+    <h2 class="titre">Qui sommes-nous</h2>
+    <article class="text">Nous sommes un groupe de 5 Wilders globe-trotters composés de: Mickael, Franck, Alexandre, Kevin et Guillaume.<br> 
+        Nous nous sommes rencontrés autour d'un projet commun à la Wild Code School où nous avons décidé de vous faire partager notre expérience.<br>
+        Amoureux de voyages et désireux de faire partager aux plus curieux d'entre vous, vous trouverez en explorant notre site, toutes nos découvertes, 
+        astuces et informations sur les pays que nous avons visité.<br>
+        Une demande d'informations sur un pays, une ville, comment s'y rendre, nous reporter un problème, n'hesitez pas à nous contacter !!<br>
+        L'équipe des Wilders globe-trotters vous souhaites une agréable navigation sur notre site !</article>
+</section>
+<section>
+    <article class="line">
         <h2 class="titre">Les pays visités</h2>
-        </article>
-        <article class="articles">
-        <div class="cards">
-            <div class="card_content">
-            <div class="card_picture">
-                <img
-                src="https://zupimages.net/up/21/11/yhfq.jpg"
-                alt="jordanie"
-                />
-                <h3 class="card_title">Jordanie</h3>
+    </article>
+    <article class="articles">
+
+        <div class="cartes">
+
+            <div class="carte" id="jordanie">
+                <h3 class="titre_carte">Jordanie</h3>
                 <a href="jordanie.php" class="btn">Découvrir</a>
             </div>
-            </div>
 
-            <div class="card_content">
-            <div class="card_picture">
-                <img
-                src=" https://www.noble-caledonia.co.uk/thumb.php?source_type=editable_pages&source_info%5Bmedia_gallery_item_id%5D=36717&source_info%5Burl%5D=%2Fab%2Fuploads%2FNCD%2Fshutterstock_110491838.jpg&source_info%5Bsecure_url%5D=%2Fab%2Fuploads%2FNCD%2Fshutterstock_110491838.jpg&source_info%5Brelative_url%5D=%2Fab%2Fuploads%2FNCD%2Fshutterstock_110491838.jpg&source_info%5Balt%5D=Beach+at+Boucan+Canot+on+Reunion&source_info%5Bcaption%5D=Beach+at+Boucan+Canot+on+Reunion&source_info%5Bwidth%5D=800&source_info%5Bheight%5D=533&source_info%5Bfilesystem_path%5D=%2Fhome%2Fdev%2Fpublic%2FCWT%2FMediaGallery%2Fuploads%2FAB%2FNCD%2Fshutterstock_110491838.jpg&source_info%5Btype%5D=JPEG+Image&source_info%5Bmime_type%5D=image%2Fjpeg&action=A.802.400"
-                alt="la reunion"
-                />
-                <h3 class="card_title">La Réunion</h3>
+            <div class="carte" id="reunion">
+                <h3 class="titre_carte">La Réunion</h3>
                 <a href="lareunion.php" class="btn">Découvrir</a>
             </div>
-            </div>
 
-            <div class="card_content">
-            <div class="card_picture">
-                <img
-                src=" https://images8.alphacoders.com/887/887586.jpg"
-                alt="japon"
-                />
-                <h3 class="card_title">Japon</h3>
+            <div class="carte" id="japon">
+                <h3 class="titre_carte">Japon</h3>
                 <a href="japon.php" class="btn">Découvrir</a>
             </div>
-            </div>
+
         </div>
-        </article>
-    </section>
-<?php include 'layout/_footer.php';?>
+    </article>
+</section>
+<?php include 'layout/_footer.php'; ?>

@@ -6,16 +6,16 @@
    <!-- </div>-->
     <!--<div class="secondRowFooter">-->
         <div class="icones">
-            <img src="images/facebook.png" alt="facebook"></img>
-            <img src="images/snapchat.png" alt="snapchat"></img>
-            <img src="images/instagram.png" alt="instagram"></img>
-            <img src="images/twitter.png" alt="twitter"></img>
+            <img class="imgSocialNetworks" src="images/facebook.png" alt="facebook"></img>
+            <img class="imgSocialNetworks" src="images/snapchat.png" alt="snapchat"></img>
+            <img class="imgSocialNetworks" src="images/instagram.png" alt="instagram"></img>
+            <img class="imgSocialNetworks" src="images/twitter.png" alt="twitter"></img>
         </div>
         <div class="mentions">
-            <h5>@Wilders Globe Trotters</h5>
+            <h5>©Wilders Globe Trotters 2021</h5>
         </div>
     <!--</div>-->
 </footer>
+<script src="assets/script.js"></script>
 </body>
-
 </html>
